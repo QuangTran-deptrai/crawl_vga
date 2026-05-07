@@ -49,7 +49,7 @@ class VGAScraper:
     async def crawl_gearvn(self, page, url):
         print(f"Crawling GearVN: {url}")
         try:
-            await page.goto(url, timeout=60000)
+            await page.goto(url, timeout=60000, wait_until="domcontentloaded")
             
             # Xử lý pagination
             selector_load_more = "#load_more"
@@ -107,7 +107,7 @@ class VGAScraper:
     async def crawl_thns(self, page, url):
         print(f"Crawling Tin Học Ngôi Sao: {url}")
         try:
-            await page.goto(url, timeout=60000)
+            await page.goto(url, timeout=60000, wait_until="domcontentloaded")
             
             # Xử lý pagination
             selector_load_more = ".btn-load__more"
