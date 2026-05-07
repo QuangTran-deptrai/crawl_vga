@@ -60,7 +60,7 @@ class VGAScraper:
                     if await button.count() > 0 and await button.is_visible():
                         current_count = await page.locator('.proloop-block').count()
                         await button.click()
-                        await page.wait_for_timeout(2000)
+                        await page.wait_for_timeout(5000)
                         
                         new_count = await page.locator('.proloop-block').count()
                         if new_count == current_count:
@@ -118,7 +118,7 @@ class VGAScraper:
                     if await button.count() > 0 and await button.is_visible():
                         current_count = await page.locator('.itemLoop').count()
                         await button.click()
-                        await page.wait_for_timeout(3000)
+                        await page.wait_for_timeout(5000)
                         
                         new_count = await page.locator('.itemLoop').count()
                         if new_count == current_count:
