@@ -3,7 +3,7 @@ import re
 import json
 import asyncio
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 from groq import Groq
@@ -186,13 +186,13 @@ class VGAScraper:
         unique_names = df['raw_name'].unique().tolist()
         results_map = {}
         
-        batch_size = 30
+        batch_size = 15
         
         system_prompt = (
             "Bạn là một chuyên gia phần cứng máy tính. Hãy phân tích chuỗi văn bản tên VGA và trả về JSON với cấu trúc là một JSON object chứa khóa 'items', "
-            "với giá trị là một mảng (array) các object tương ứng với mỗi sản phẩm đầu vào. Mỗi object trong mảng gồm các trường: "
-            "brand (thương hiệu), chipset (ví dụ: RTX 5070), vram_gb (số, ví dụ: 12), vram_type (ví dụ: GDDR7), raw_name (trường này chứa đúng tên gốc của sản phẩm đầu vào để map dữ liệu). "
-            "Lưu ý: Chỉ trả về JSON object, không giải thích."
+            "với giá trị là một mảng (array) các object tương ứng với mỗi sản phẩm đầu vào. Mỗi object trong mảng bắt buộc phải gồm 5 trường: "
+            "brand (thương hiệu, vd: ASUS, GIGABYTE, MSI...), chipset (ví dụ: RTX 4090, RX 7900 XTX...), vram_gb (số lượng VRAM, ví dụ: 24), vram_type (ví dụ: GDDR6X), raw_name (trường này chứa đúng tên gốc của sản phẩm đầu vào để map dữ liệu). "
+            "Lưu ý: Bắt buộc trả về định dạng JSON object, đảm bảo mảng 'items' có số lượng phần tử bằng đúng số lượng tên đầu vào, không giải thích gì thêm."
         )
 
         for i in range(0, len(unique_names), batch_size):
@@ -227,6 +227,8 @@ class VGAScraper:
                     for item in item_list:
                         if 'raw_name' in item:
                             results_map[item['raw_name']] = item
+                            
+                    print(f"Batch processed: {len(item_list)}/{len(batch)} items parsed from Groq.")
                             
                 except json.JSONDecodeError:
                     print("Could not parse JSON from Groq for batch")
@@ -264,7 +266,8 @@ class VGAScraper:
         
         df = self.process_with_groq(df)
         
-        df['crawled_date'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        vn_tz = timezone(timedelta(hours=7))
+        df['crawled_date'] = datetime.now(vn_tz).strftime("%d/%m/%Y %H:%M:%S")
         
         csv_path = "vga_data.csv"
         file_exists = os.path.isfile(csv_path)
