@@ -6,14 +6,12 @@ import pandas as pd
 from datetime import datetime, timezone, timedelta
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
-from groq import Groq
 import httpx
 
 load_dotenv()
 
 class VGAScraper:
     def __init__(self):
-        self.groq_api_key = os.getenv("GROQ_API_KEY")
         self.telegram_bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
         self.telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID")
         
@@ -23,12 +21,7 @@ class VGAScraper:
         ]
         self.thns_url = "https://tinhocngoisao.com/collections/card-man-hinh"
         self.data = []
-        
-        if self.groq_api_key:
-            self.groq_client = Groq(api_key=self.groq_api_key)
-        else:
-            self.groq_client = None
-
+        self.data = []
     async def send_telegram_alert(self, message: str):
         if not self.telegram_bot_token or not self.telegram_chat_id:
             print(f"[Telegram Not Configured] {message}")
@@ -176,73 +169,6 @@ class VGAScraper:
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
 
-    def process_with_groq(self, df):
-        if not self.groq_client:
-            print("No Groq API key, skipping AI processing.")
-            return df
-            
-        print("Processing data with Groq AI...")
-        
-        unique_names = df['raw_name'].unique().tolist()
-        results_map = {}
-        
-        batch_size = 15
-        
-        system_prompt = (
-            "Bạn là một chuyên gia phần cứng máy tính. Hãy phân tích chuỗi văn bản tên VGA và trả về JSON với cấu trúc là một JSON object chứa khóa 'items', "
-            "với giá trị là một mảng (array) các object tương ứng với mỗi sản phẩm đầu vào. Mỗi object trong mảng bắt buộc phải gồm 5 trường: "
-            "brand (thương hiệu, vd: ASUS, GIGABYTE, MSI...), chipset (ví dụ: RTX 4090, RX 7900 XTX...), vram_gb (số lượng VRAM, ví dụ: 24), vram_type (ví dụ: GDDR6X), raw_name (trường này chứa đúng tên gốc của sản phẩm đầu vào để map dữ liệu). "
-            "Lưu ý: Bắt buộc trả về định dạng JSON object, đảm bảo mảng 'items' có số lượng phần tử bằng đúng số lượng tên đầu vào, không giải thích gì thêm."
-        )
-
-        for i in range(0, len(unique_names), batch_size):
-            batch = unique_names[i:i+batch_size]
-            prompt = "Phân tích các tên sau:\n" + "\n".join(batch)
-            
-            try:
-                response = self.groq_client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
-                    messages=[
-                        {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=0,
-                    response_format={"type": "json_object"}
-                )
-                
-                content = response.choices[0].message.content
-                
-                try:
-                    parsed_json = json.loads(content)
-                    item_list = parsed_json.get('items', [])
-                    
-                    if not item_list and isinstance(parsed_json, dict):
-                         for k, v in parsed_json.items():
-                             if isinstance(v, list):
-                                 item_list = v
-                                 break
-                    elif not item_list and isinstance(parsed_json, list):
-                         item_list = parsed_json
-                         
-                    for item in item_list:
-                        if 'raw_name' in item:
-                            results_map[item['raw_name']] = item
-                            
-                    print(f"Batch processed: {len(item_list)}/{len(batch)} items parsed from Groq.")
-                            
-                except json.JSONDecodeError:
-                    print("Could not parse JSON from Groq for batch")
-                    
-            except Exception as e:
-                print(f"Error calling Groq API: {e}")
-                
-        df['brand'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('brand', ''))
-        df['chipset'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('chipset', ''))
-        df['vram_gb'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('vram_gb', ''))
-        df['vram_type'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('vram_type', ''))
-        
-        return df
-
     async def async_run(self):
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
@@ -263,8 +189,6 @@ class VGAScraper:
             return
 
         df = pd.DataFrame(self.data)
-        
-        df = self.process_with_groq(df)
         
         vn_tz = timezone(timedelta(hours=7))
         df['crawled_date'] = datetime.now(vn_tz).strftime("%d/%m/%Y %H:%M:%S")
