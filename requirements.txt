@@ -1,0 +1,5 @@
+playwright
+pandas
+groq
+httpx
+python-dotenv
