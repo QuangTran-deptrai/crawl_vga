@@ -52,6 +52,16 @@ class VGAScraper:
             await page.goto(url, timeout=60000, wait_until="load")
             await page.wait_for_timeout(3000)
             
+            # Đóng popup quảng cáo nếu có
+            try:
+                ad_close_btn = page.locator('button.close[data-dismiss="modal"]')
+                if await ad_close_btn.count() > 0 and await ad_close_btn.first.is_visible(timeout=2000):
+                    await ad_close_btn.first.click(force=True)
+                    print("Đã đóng popup quảng cáo GearVN.")
+                    await page.wait_for_timeout(1000)
+            except Exception:
+                pass
+            
             # Xử lý pagination
             selector_load_more = "#load_more"
             
@@ -175,7 +185,7 @@ class VGAScraper:
 
     async def async_run(self):
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
+            browser = await p.chromium.launch(headless=False)
             context = await browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
             )
