@@ -49,7 +49,8 @@ class VGAScraper:
     async def crawl_gearvn(self, page, url):
         print(f"Crawling GearVN: {url}")
         try:
-            await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+            await page.goto(url, timeout=60000, wait_until="load")
+            await page.wait_for_timeout(3000)
             
             # Xử lý pagination
             selector_load_more = "#load_more"
@@ -59,7 +60,8 @@ class VGAScraper:
                     button = page.locator(selector_load_more)
                     if await button.count() > 0 and await button.is_visible():
                         current_count = await page.locator('.proloop-block').count()
-                        await button.click()
+                        await button.scroll_into_view_if_needed()
+                        await button.click(force=True)
                         await page.wait_for_timeout(5000)
                         
                         new_count = await page.locator('.proloop-block').count()
@@ -107,7 +109,8 @@ class VGAScraper:
     async def crawl_thns(self, page, url):
         print(f"Crawling Tin Học Ngôi Sao: {url}")
         try:
-            await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+            await page.goto(url, timeout=60000, wait_until="load")
+            await page.wait_for_timeout(3000)
             
             # Xử lý pagination
             selector_load_more = ".btn-load__more"
@@ -117,7 +120,8 @@ class VGAScraper:
                     button = page.locator(selector_load_more)
                     if await button.count() > 0 and await button.is_visible():
                         current_count = await page.locator('.itemLoop').count()
-                        await button.click()
+                        await button.scroll_into_view_if_needed()
+                        await button.click(force=True)
                         await page.wait_for_timeout(5000)
                         
                         new_count = await page.locator('.itemLoop').count()
