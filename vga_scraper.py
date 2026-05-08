@@ -92,6 +92,9 @@ class VGAScraper:
                 name_loc = block.locator('.proloop-name a')
                 name = await name_loc.inner_text() if await name_loc.count() > 0 else ""
                 
+                product_url_path = await name_loc.get_attribute('href') if await name_loc.count() > 0 else ""
+                product_url = f"https://gearvn.com{product_url_path}" if product_url_path else url
+                
                 highlight_loc = block.locator('.proloop-price--highlight')
                 discount_price_str = await highlight_loc.inner_text() if await highlight_loc.count() > 0 else ""
                 discount_price = self.clean_price(discount_price_str)
@@ -109,7 +112,7 @@ class VGAScraper:
                         "raw_name": name.strip(),
                         "original_price": original_price,
                         "discount_price": discount_price,
-                        "url": url
+                        "url": product_url
                     })
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: GearVN lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
@@ -159,6 +162,9 @@ class VGAScraper:
                 name_loc = block.locator('.pdLoopName a')
                 name = await name_loc.inner_text() if await name_loc.count() > 0 else ""
                 
+                product_url_path = await name_loc.get_attribute('href') if await name_loc.count() > 0 else ""
+                product_url = f"https://tinhocngoisao.com{product_url_path}" if product_url_path else url
+                
                 price_loc = block.locator('.pdPrice span')
                 price_count = await price_loc.count()
                 
@@ -183,7 +189,7 @@ class VGAScraper:
                         "raw_name": name.strip(),
                         "original_price": original_price,
                         "discount_price": discount_price,
-                        "url": url
+                        "url": product_url
                     })
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
