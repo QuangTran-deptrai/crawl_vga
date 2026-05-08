@@ -52,14 +52,10 @@ class VGAScraper:
             await page.goto(url, timeout=60000, wait_until="load")
             await page.wait_for_timeout(3000)
             
-            # Đóng popup quảng cáo nếu có
+            # Dùng CSS ẩn luôn tất cả popup quảng cáo để không bao giờ bị che
             try:
-                ad_close_btn = page.locator('button.close[data-dismiss="modal"]')
-                # Wait up to 5 seconds for the popup to appear
-                await ad_close_btn.first.wait_for(state="visible", timeout=5000)
-                await ad_close_btn.first.click(force=True)
-                print("Đã đóng popup quảng cáo GearVN.")
-                await page.wait_for_timeout(1000)
+                await page.add_style_tag(content=".modal, .modal-backdrop, #myModal { display: none !important; pointer-events: none !important; z-index: -1 !important; }")
+                print("Đã chèn CSS ẩn popup quảng cáo GearVN.")
             except Exception:
                 pass
             
@@ -72,7 +68,8 @@ class VGAScraper:
                     if await button.count() > 0 and await button.is_visible():
                         current_count = await page.locator('.proloop-block').count()
                         await button.scroll_into_view_if_needed()
-                        await button.click(force=True)
+                        await page.evaluate("document.querySelectorAll('.modal, .modal-backdrop').forEach(el => el.remove())")
+                        await button.click()
                         await page.wait_for_timeout(5000)
                         
                         new_count = await page.locator('.proloop-block').count()
@@ -123,6 +120,12 @@ class VGAScraper:
             await page.goto(url, timeout=60000, wait_until="load")
             await page.wait_for_timeout(3000)
             
+            # Dùng CSS ẩn popup/chat widget
+            try:
+                await page.add_style_tag(content=".modal, .modal-backdrop, [id*='onesignal'], [id*='fb-root'] { display: none !important; pointer-events: none !important; z-index: -1 !important; }")
+            except Exception:
+                pass
+            
             # Xử lý pagination
             selector_load_more = ".btn-load__more"
             
@@ -132,7 +135,8 @@ class VGAScraper:
                     if await button.count() > 0 and await button.is_visible():
                         current_count = await page.locator('.itemLoop').count()
                         await button.scroll_into_view_if_needed()
-                        await button.click(force=True)
+                        await page.evaluate("document.querySelectorAll('.modal, .modal-backdrop, [id*=\"onesignal\"]').forEach(el => el.remove())")
+                        await button.click()
                         await page.wait_for_timeout(5000)
                         
                         new_count = await page.locator('.itemLoop').count()
