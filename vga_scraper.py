@@ -55,10 +55,11 @@ class VGAScraper:
             # Đóng popup quảng cáo nếu có
             try:
                 ad_close_btn = page.locator('button.close[data-dismiss="modal"]')
-                if await ad_close_btn.count() > 0 and await ad_close_btn.first.is_visible(timeout=2000):
-                    await ad_close_btn.first.click(force=True)
-                    print("Đã đóng popup quảng cáo GearVN.")
-                    await page.wait_for_timeout(1000)
+                # Wait up to 5 seconds for the popup to appear
+                await ad_close_btn.first.wait_for(state="visible", timeout=5000)
+                await ad_close_btn.first.click(force=True)
+                print("Đã đóng popup quảng cáo GearVN.")
+                await page.wait_for_timeout(1000)
             except Exception:
                 pass
             
