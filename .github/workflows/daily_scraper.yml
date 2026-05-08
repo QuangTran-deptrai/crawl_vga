@@ -2,7 +2,7 @@ name: Daily VGA Data Scraper
 
 on:
   schedule:
-    - cron: '0 1 * * *' # Chạy vào 01:00 UTC (8h sáng VN) mỗi ngày
+    - cron: '35 1 * * *' # Chạy vào 01:35 UTC (8h35 sáng VN) mỗi ngày
   workflow_dispatch: # Nút nhấn chạy thủ công phòng trường hợp bạn muốn test
 
 jobs:
