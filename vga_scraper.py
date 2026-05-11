@@ -257,9 +257,9 @@ class VGAScraper:
                 row_idx = sheet.max_row + 1
                 b_cell = f"B{row_idx}"
                 
-                brand_formula = f'=TEXTJOIN(",",TRUE,IF(COUNTIF({b_cell},"*"&GPU_brand[GPU brand text]&"*"),GPU_brand[GPU brand],""))'
+                brand_formula = f'=_xlfn.TEXTJOIN(",",TRUE,IF(COUNTIF({b_cell},"*"&GPU_brand[GPU brand text]&"*"),GPU_brand[GPU brand],""))'
                 chipset_formula = f'=IFERROR(INDEX(Chipset_Table[Chipset], MATCH(TRUE, ISNUMBER( SEARCH(Chipset_Table[Chipset text],{b_cell})), 0)), "")'
-                vram_formula = f'=TEXTJOIN(",",TRUE,IF(COUNTIF({b_cell},"*"&VRAM_table[Video memory text]&"*"),VRAM_table[Video memory],""))'
+                vram_formula = f'=_xlfn.TEXTJOIN(",",TRUE,IF(COUNTIF({b_cell},"*"&VRAM_table[Video memory text]&"*"),VRAM_table[Video memory],""))'
                 
                 row_data = [
                     item.get("source", ""),
@@ -273,6 +273,21 @@ class VGAScraper:
                     vram_formula
                 ]
                 sheet.append(row_data)
+                
+            table_name = "GPU_Lookup_Data"
+            table_ref = f"A1:I{sheet.max_row}"
+            existing_table = None
+            for tbl in sheet.tables.values():
+                if tbl.displayName == table_name:
+                    existing_table = tbl
+                    break
+            if existing_table:
+                existing_table.ref = table_ref
+            else:
+                lookup_tab = Table(displayName=table_name, ref=table_ref)
+                style = TableStyleInfo(name="TableStyleMedium9", showFirstColumn=False, showLastColumn=False, showRowStripes=True, showColumnStripes=True)
+                lookup_tab.tableStyleInfo = style
+                sheet.add_table(lookup_tab)
                 
             wb.save(excel_path)
             await self.send_telegram_alert(f"Thành công: Đã lấy được {len(self.data)} sản phẩm và lưu vào file Excel.")
