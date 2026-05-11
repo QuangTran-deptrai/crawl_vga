@@ -195,6 +195,24 @@ class VGAScraper:
                     })
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
+    async def async_run(self):
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(headless=True)
+            context = await browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+            )
+            page = await context.new_page()
+            
+            for url in self.gearvn_urls:
+                await self.crawl_gearvn(page, url)
+                
+            await self.crawl_thns(page, self.thns_url)
+            
+            await browser.close()
+            
+        if not self.data:
+            await self.send_telegram_alert("Cảnh báo: Không crawl được dữ liệu nào từ các trang.")
+            return
 
         vn_tz = timezone(timedelta(hours=7))
         crawled_date_str = datetime.now(vn_tz).strftime("%d/%m/%Y %H:%M:%S")
