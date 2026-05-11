@@ -194,77 +194,41 @@ class VGAScraper:
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
 
-    def process_with_ollama(self, df):
-        print("Processing data with local Ollama (Gemma 2B)...")
+    def process_vga_info(self, df):
+        print("Processing data with Regex...")
+        brands = ["ASUS", "GIGABYTE", "MSI", "COLORFUL", "GALAX", "INNO3D", "PALIT", "ZOTAC", "ASROCK", "SAPPHIRE", "POWERCOLOR", "PNY", "EVGA", "LEADTEK", "MANLI"]
         
-        unique_names = df['raw_name'].unique().tolist()
-        results_map = {}
-        
-        batch_size = 15
-        
-        system_prompt = (
-            "Bạn là một chuyên gia phần cứng máy tính. Hãy phân tích chuỗi văn bản tên VGA và trả về JSON với cấu trúc là một JSON object chứa khóa 'items', "
-            "với giá trị là một mảng (array) các object tương ứng với mỗi sản phẩm đầu vào. Mỗi object trong mảng bắt buộc phải gồm 5 trường: "
-            "brand (thương hiệu, vd: ASUS, GIGABYTE, MSI...), chipset (ví dụ: RTX 4090, RX 7900 XTX...), vram_gb (số lượng VRAM, ví dụ: 24), vram_type (ví dụ: GDDR6X), raw_name (trường này chứa đúng tên gốc của sản phẩm đầu vào để map dữ liệu). "
-            "Lưu ý: Bắt buộc trả về định dạng JSON object, đảm bảo mảng 'items' có số lượng phần tử bằng đúng số lượng tên đầu vào, không giải thích gì thêm."
-        )
-
-        for i in range(0, len(unique_names), batch_size):
-            batch = unique_names[i:i+batch_size]
-            prompt = "Phân tích các tên sau:\n" + "\n".join(batch)
+        def parse_row(name):
+            name_upper = name.upper()
             
-            try:
-                with httpx.Client(timeout=None) as client:
-                    response = client.post(
-                        "http://localhost:11434/api/chat",
-                        json={
-                            "model": "gemma2:2b",
-                            "messages": [
-                                {"role": "system", "content": system_prompt},
-                                {"role": "user", "content": prompt}
-                            ],
-                            "format": "json",
-                            "stream": False,
-                            "options": {
-                                "temperature": 0.0
-                            }
-                        }
-                    )
-                
-                if response.status_code == 200:
-                    content = response.json().get('message', {}).get('content', '')
+            # Extract brand
+            brand = ""
+            for b in brands:
+                if b in name_upper:
+                    brand = b
+                    break
                     
-                    try:
-                        parsed_json = json.loads(content)
-                        item_list = parsed_json.get('items', [])
-                        
-                        if not item_list and isinstance(parsed_json, dict):
-                             for k, v in parsed_json.items():
-                                 if isinstance(v, list):
-                                     item_list = v
-                                     break
-                        elif not item_list and isinstance(parsed_json, list):
-                             item_list = parsed_json
-                             
-                        for item in item_list:
-                            if 'raw_name' in item:
-                                results_map[item['raw_name']] = item
-                                
-                        print(f"Batch processed: {len(item_list)}/{len(batch)} items parsed from Ollama.")
-                                
-                    except json.JSONDecodeError:
-                        print("Could not parse JSON from Ollama for batch")
-                else:
-                    print(f"Ollama API returned status {response.status_code}")
-                    
-            except Exception as e:
-                print(f"Error calling Ollama API: {e}. Is Ollama running?")
+            # Extract chipset
+            chipset = ""
+            chip_match = re.search(r'(RTX|GTX|GT|RX|ARC)\s*(\d{3,4})\s*(TI|SUPER|XTX|XT|GRE)?', name_upper)
+            if chip_match:
+                chipset = " ".join([g for g in chip_match.groups() if g])
                 
-        df['brand'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('brand', ''))
-        df['chipset'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('chipset', ''))
-        df['vram_gb'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('vram_gb', ''))
-        df['vram_type'] = df['raw_name'].apply(lambda x: results_map.get(x, {}).get('vram_type', ''))
-        
+            # Extract VRAM GB
+            vram_gb = ""
+            vram_match = re.search(r'(\d{1,2})\s*(GB|G)(?!\w)', name_upper)
+            if vram_match:
+                vram_gb = vram_match.group(1)
+                
+            # Extract VRAM Type
+            vram_type = ""
+            type_match = re.search(r'(GDDR\d[X]?)', name_upper)
+            if type_match:
+                vram_type = type_match.group(1)
+                
+            return pd.Series([brand, chipset, vram_gb, vram_type])
+            
+        df[['brand', 'chipset', 'vram_gb', 'vram_type']] = df['raw_name'].apply(parse_row)
         return df
 
     async def async_run(self):
@@ -288,7 +252,7 @@ class VGAScraper:
 
         df = pd.DataFrame(self.data)
         
-        df = self.process_with_ollama(df)
+        df = self.process_vga_info(df)
         
         vn_tz = timezone(timedelta(hours=7))
         df['crawled_date'] = datetime.now(vn_tz).strftime("%d/%m/%Y %H:%M:%S")
