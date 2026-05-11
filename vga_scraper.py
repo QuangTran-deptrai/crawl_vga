@@ -195,40 +195,20 @@ class VGAScraper:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
 
     def process_vga_info(self, df):
-        print("Processing data with Regex...")
-        brands = ["ASUS", "GIGABYTE", "MSI", "COLORFUL", "GALAX", "INNO3D", "PALIT", "ZOTAC", "ASROCK", "SAPPHIRE", "POWERCOLOR", "PNY", "EVGA", "LEADTEK", "MANLI"]
+        print("Inserting Spreadsheet formulas into data...")
         
-        def parse_row(name):
-            name_upper = name.upper()
-            
-            # Extract brand
-            brand = ""
-            for b in brands:
-                if b in name_upper:
-                    brand = b
-                    break
-                    
-            # Extract chipset
-            chipset = ""
-            chip_match = re.search(r'(RTX|GTX|GT|RX|ARC)\s*(\d{3,4})\s*(TI|SUPER|XTX|XT|GRE)?', name_upper)
-            if chip_match:
-                chipset = " ".join([g for g in chip_match.groups() if g])
-                
-            # Extract VRAM GB
-            vram_gb = ""
-            vram_match = re.search(r'(\d{1,2})\s*(GB|G)(?!\w)', name_upper)
-            if vram_match:
-                vram_gb = vram_match.group(1)
-                
-            # Extract VRAM Type
-            vram_type = ""
-            type_match = re.search(r'(GDDR\d[X]?)', name_upper)
-            if type_match:
-                vram_type = type_match.group(1)
-                
-            return pd.Series([brand, chipset, vram_gb, vram_type])
-            
-        df[['brand', 'chipset', 'vram_gb', 'vram_type']] = df['raw_name'].apply(parse_row)
+        # Hàm REGEXEXTRACT hoạt động tốt trên Google Sheets (hoặc Excel bản mới nhất).
+        # Hàm INDIRECT("B"&ROW()) lấy chính xác giá trị của cột B (raw_name) ở dòng hiện tại.
+        brand_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)(?:ASUS|GIGABYTE|MSI|COLORFUL|GALAX|INNO3D|PALIT|ZOTAC|ASROCK|SAPPHIRE|POWERCOLOR|PNY|EVGA|LEADTEK|MANLI)"), "")'
+        chipset_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)(?:RTX|GTX|GT|RX|ARC)\s*\d{3,4}\s*(?:TI|SUPER|XTX|XT|GRE)?"), "")'
+        vram_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)\d{1,2}\s*(?:GB|G)\b"), "")'
+        vram_type_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)GDDR\d[X]?"), "")'
+        
+        df['brand'] = brand_formula
+        df['chipset'] = chipset_formula
+        df['vram_gb'] = vram_formula
+        df['vram_type'] = vram_type_formula
+        
         return df
 
     async def async_run(self):
