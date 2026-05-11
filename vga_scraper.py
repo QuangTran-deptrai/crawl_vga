@@ -214,7 +214,7 @@ class VGAScraper:
             prompt = "Phân tích các tên sau:\n" + "\n".join(batch)
             
             try:
-                with httpx.Client(timeout=120.0) as client:
+                with httpx.Client(timeout=None) as client:
                     response = client.post(
                         "http://localhost:11434/api/chat",
                         json={
