@@ -2,3 +2,4 @@ playwright
 pandas
 httpx
 python-dotenv
+openpyxl

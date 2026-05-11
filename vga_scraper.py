@@ -7,6 +7,8 @@ from datetime import datetime, timezone, timedelta
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 import httpx
+import openpyxl
+from openpyxl.worksheet.table import Table, TableStyleInfo
 
 load_dotenv()
 
@@ -194,57 +196,76 @@ class VGAScraper:
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
 
-    def process_vga_info(self, df):
-        print("Inserting User's Custom Spreadsheet formulas into data...")
-        
-        # Hàm INDIRECT("B"&ROW()) lấy chính xác giá trị của cột B (raw_name) ở dòng hiện tại.
-        brand_formula = '=TEXTJOIN(",",TRUE,IF(COUNTIF(INDIRECT("B"&ROW()),"*"&GPU_brand[GPU brand text]&"*"),GPU_brand[GPU brand],""))'
-        chipset_formula = '=IFERROR(INDEX(Chipset_Table[Chipset], MATCH(TRUE, ISNUMBER( SEARCH(Chipset_Table[Chipset text],INDIRECT("B"&ROW()))), 0)), "")'
-        vram_formula = '=TEXTJOIN(",",TRUE,IF(COUNTIF(INDIRECT("B"&ROW()),"*"&VRAM_table[Video memory text]&"*"),VRAM_table[Video memory],""))'
-        
-        df['brand'] = brand_formula
-        df['chipset'] = chipset_formula
-        df['vram_gb'] = vram_formula
-        df['vram_type'] = ""
-        
-        return df
-
-    async def async_run(self):
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            context = await browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
-            )
-            page = await context.new_page()
-            
-            for url in self.gearvn_urls:
-                await self.crawl_gearvn(page, url)
-                
-            await self.crawl_thns(page, self.thns_url)
-            
-            await browser.close()
-            
-        if not self.data:
-            await self.send_telegram_alert("Cảnh báo: Không crawl được dữ liệu nào từ các trang.")
-            return
-
-        df = pd.DataFrame(self.data)
-        
-        df = self.process_vga_info(df)
-        
         vn_tz = timezone(timedelta(hours=7))
-        df['crawled_date'] = datetime.now(vn_tz).strftime("%d/%m/%Y %H:%M:%S")
+        crawled_date_str = datetime.now(vn_tz).strftime("%d/%m/%Y %H:%M:%S")
         
-        csv_path = "vga_data.csv"
-        file_exists = os.path.isfile(csv_path)
+        excel_path = "vga_data.xlsx"
         
         try:
-            df.to_csv(csv_path, mode='a', header=not file_exists, index=False, encoding='utf-8-sig')
-            await self.send_telegram_alert(f"Thành công: Đã lấy được {len(self.data)} sản phẩm.")
-            print(f"Data saved to {csv_path}")
+            if os.path.exists(excel_path):
+                wb = openpyxl.load_workbook(excel_path)
+            else:
+                wb = openpyxl.Workbook()
+                sheet = wb.active
+                sheet.title = "GPU Lookup"
+                sheet.append(["source", "raw_name", "original_price", "discount_price", "url", "crawled_date", "brand", "chipset", "vram_gb"])
+                
+                ref_sheet = wb.create_sheet(title="GPU ref")
+                ref_sheet.append(["GPU brand text", "GPU brand", "", "Chipset text", "Chipset", "", "Video memory text", "Video memory"])
+                ref_sheet.append(["ASUS", "ASUS", "", "RTX 3060", "NVIDIA GeForce RTX 3060", "", "8GB", "8GB"])
+                
+                style = TableStyleInfo(name="TableStyleMedium9", showFirstColumn=False, showLastColumn=False, showRowStripes=True, showColumnStripes=True)
+                
+                tab_brand = Table(displayName="GPU_brand", ref="A1:B2")
+                tab_brand.tableStyleInfo = style
+                ref_sheet.add_table(tab_brand)
+                
+                tab_chipset = Table(displayName="Chipset_Table", ref="D1:E2")
+                tab_chipset.tableStyleInfo = style
+                ref_sheet.add_table(tab_chipset)
+                
+                tab_vram = Table(displayName="VRAM_table", ref="G1:H2")
+                tab_vram.tableStyleInfo = style
+                ref_sheet.add_table(tab_vram)
+                
+            if "GPU Lookup" not in wb.sheetnames:
+                wb.create_sheet("GPU Lookup")
+            sheet = wb["GPU Lookup"]
+            
+            if sheet.max_row == 1 and sheet.cell(row=1, column=1).value is None:
+                sheet.append(["source", "raw_name", "original_price", "discount_price", "url", "crawled_date", "brand", "chipset", "vram_gb"])
+                
+            for item in self.data:
+                row_idx = sheet.max_row + 1
+                b_cell = f"B{row_idx}"
+                
+                brand_formula = f'=TEXTJOIN(",",TRUE,IF(COUNTIF({b_cell},"*"&GPU_brand[GPU brand text]&"*"),GPU_brand[GPU brand],""))'
+                chipset_formula = f'=IFERROR(INDEX(Chipset_Table[Chipset], MATCH(TRUE, ISNUMBER( SEARCH(Chipset_Table[Chipset text],{b_cell})), 0)), "")'
+                vram_formula = f'=TEXTJOIN(",",TRUE,IF(COUNTIF({b_cell},"*"&VRAM_table[Video memory text]&"*"),VRAM_table[Video memory],""))'
+                
+                row_data = [
+                    item.get("source", ""),
+                    item.get("raw_name", ""),
+                    item.get("original_price", ""),
+                    item.get("discount_price", ""),
+                    item.get("url", ""),
+                    crawled_date_str,
+                    brand_formula,
+                    chipset_formula,
+                    vram_formula
+                ]
+                sheet.append(row_data)
+                
+            wb.save(excel_path)
+            await self.send_telegram_alert(f"Thành công: Đã lấy được {len(self.data)} sản phẩm và lưu vào file Excel.")
+            print(f"Data saved to {excel_path}")
+            
+        except PermissionError:
+            await self.send_telegram_alert(f"Lỗi Permission Denied: Vui lòng đóng file {excel_path} trước khi chạy script.")
+            print(f"Lỗi Permission Denied: Vui lòng đóng file {excel_path} trước khi chạy script.")
         except Exception as e:
-            await self.send_telegram_alert(f"Lỗi khi lưu file CSV: {e}")
-            print(f"Error saving to CSV: {e}")
+            await self.send_telegram_alert(f"Lỗi khi lưu file Excel: {e}")
+            print(f"Error saving to Excel: {e}")
 
     def run(self):
         asyncio.run(self.async_run())
