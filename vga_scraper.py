@@ -195,19 +195,17 @@ class VGAScraper:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
 
     def process_vga_info(self, df):
-        print("Inserting Spreadsheet formulas into data...")
+        print("Inserting User's Custom Spreadsheet formulas into data...")
         
-        # Hàm REGEXEXTRACT hoạt động tốt trên Google Sheets (hoặc Excel bản mới nhất).
         # Hàm INDIRECT("B"&ROW()) lấy chính xác giá trị của cột B (raw_name) ở dòng hiện tại.
-        brand_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)(?:ASUS|GIGABYTE|MSI|COLORFUL|GALAX|INNO3D|PALIT|ZOTAC|ASROCK|SAPPHIRE|POWERCOLOR|PNY|EVGA|LEADTEK|MANLI)"), "")'
-        chipset_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)(?:RTX|GTX|GT|RX|ARC)\s*\d{3,4}\s*(?:TI|SUPER|XTX|XT|GRE)?"), "")'
-        vram_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)\d{1,2}\s*(?:GB|G)\b"), "")'
-        vram_type_formula = '=IFERROR(REGEXEXTRACT(INDIRECT("B"&ROW()), "(?i)GDDR\d[X]?"), "")'
+        brand_formula = '=TEXTJOIN(",",TRUE,IF(COUNTIF(INDIRECT("B"&ROW()),"*"&GPU_brand[GPU brand text]&"*"),GPU_brand[GPU brand],""))'
+        chipset_formula = '=IFERROR(INDEX(Chipset_Table[Chipset], MATCH(TRUE, ISNUMBER( SEARCH(Chipset_Table[Chipset text],INDIRECT("B"&ROW()))), 0)), "")'
+        vram_formula = '=TEXTJOIN(",",TRUE,IF(COUNTIF(INDIRECT("B"&ROW()),"*"&VRAM_table[Video memory text]&"*"),VRAM_table[Video memory],""))'
         
         df['brand'] = brand_formula
         df['chipset'] = chipset_formula
         df['vram_gb'] = vram_formula
-        df['vram_type'] = vram_type_formula
+        df['vram_type'] = ""
         
         return df
 
