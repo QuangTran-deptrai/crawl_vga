@@ -257,9 +257,9 @@ class VGAScraper:
                 row_idx = sheet.max_row + 1
                 b_cell = f"B{row_idx}"
                 
-                brand_formula = f'=_xlfn.TEXTJOIN(",",TRUE,IF(ISNUMBER(SEARCH(INDEX(GPU_brand[GPU brand text],0), {b_cell})), INDEX(GPU_brand[GPU brand],0), ""))'
-                chipset_formula = f'=IFERROR(INDEX(Chipset_Table[Chipset], MATCH(TRUE, ISNUMBER(SEARCH(INDEX(Chipset_Table[Chipset text],0), {b_cell})), 0)), "")'
-                vram_formula = f'=_xlfn.TEXTJOIN(",",TRUE,IF(ISNUMBER(SEARCH(INDEX(VRAM_table[Video memory text],0), {b_cell})), INDEX(VRAM_table[Video memory],0), ""))'
+                brand_formula = f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn.FILTER(GPU_brand[GPU brand], (GPU_brand[GPU brand text]<>"") * ISNUMBER(SEARCH(GPU_brand[GPU brand text], {b_cell})), ""))'
+                chipset_formula = f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn.FILTER(Chipset_Table[Chipset], (Chipset_Table[Chipset text]<>"") * ISNUMBER(SEARCH(Chipset_Table[Chipset text], {b_cell})), ""))'
+                vram_formula = f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn.FILTER(VRAM_table[Video memory], (VRAM_table[Video memory text]<>"") * ISNUMBER(SEARCH(VRAM_table[Video memory text], {b_cell})), ""))'
                 
                 row_data = [
                     item.get("source", ""),
