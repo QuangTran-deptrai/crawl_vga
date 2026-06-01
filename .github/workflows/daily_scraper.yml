@@ -42,7 +42,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # Chỉ add file data, bỏ qua log hoặc cache nếu có
-          git add -f vga_data.csv
+          git add -f vga_data.xlsx
           
           # Kiểm tra xem có thay đổi mới không, nếu có thì commit và push
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Crawl dữ liệu VGA mới nhất [skip ci]" && git push)
