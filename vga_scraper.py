@@ -9,6 +9,7 @@ from playwright.async_api import async_playwright
 import httpx
 import openpyxl
 from openpyxl.worksheet.table import Table, TableStyleInfo
+import google.generativeai as genai
 
 load_dotenv()
 
@@ -47,6 +48,86 @@ class VGAScraper:
             return 0
         cleaned = re.sub(r'[^\d]', '', price_str)
         return int(cleaned) if cleaned else 0
+
+    def load_regex_rules(self, excel_path="vga_data.xlsx"):
+        brand_rules = {}
+        chipset_rules = {}
+        vram_rules = {}
+        if os.path.exists(excel_path):
+            try:
+                df = pd.read_excel(excel_path, sheet_name='GPU ref', engine='openpyxl')
+                if 'GPU brand text' in df.columns and 'GPU brand' in df.columns:
+                    for text, val in zip(df['GPU brand text'], df['GPU brand']):
+                        if pd.notna(text) and pd.notna(val):
+                            brand_rules[str(text).strip()] = str(val).strip()
+                if 'Chipset text' in df.columns and 'Chipset' in df.columns:
+                    for text, val in zip(df['Chipset text'], df['Chipset']):
+                        if pd.notna(text) and pd.notna(val):
+                            chipset_rules[str(text).strip()] = str(val).strip()
+                if 'Video memory text' in df.columns and 'Video memory' in df.columns:
+                    for text, val in zip(df['Video memory text'], df['Video memory']):
+                        if pd.notna(text) and pd.notna(val):
+                            vram_rules[str(text).strip()] = str(val).strip()
+            except Exception as e:
+                print(f"Error loading GPU ref: {e}")
+        return brand_rules, chipset_rules, vram_rules
+
+    def get_matches(self, text, rules_dict):
+        text_upper = text.upper()
+        
+        # Tìm tất cả vị trí match trong text
+        found = []  # [(start, end, key, value)]
+        for key, val in rules_dict.items():
+            key_upper = key.upper()
+            start = 0
+            while True:
+                pos = text_upper.find(key_upper, start)
+                if pos == -1:
+                    break
+                found.append((pos, pos + len(key_upper), key_upper, val))
+                start = pos + 1
+        
+        # Sắp xếp: dài nhất trước, nếu bằng nhau thì vị trí sớm hơn trước
+        found.sort(key=lambda x: (-(x[1] - x[0]), x[0]))
+        
+        # Loại bỏ các match bị overlap bởi match dài hơn
+        kept = []
+        for item in found:
+            s, e, k, v = item
+            is_overlapped = False
+            for ks, ke, kk, kv in kept:
+                # Nếu match hiện tại nằm gọn trong hoặc overlap với match đã giữ
+                if s >= ks and e <= ke:
+                    is_overlapped = True
+                    break
+                # Overlap một phần: match hiện tại bắt đầu trong match đã giữ
+                if ks <= s < ke or ks < e <= ke:
+                    is_overlapped = True
+                    break
+            if not is_overlapped:
+                kept.append(item)
+        
+        # Trả về danh sách value duy nhất
+        return list(set(v for _, _, _, v in kept))
+
+    async def process_ambiguous_with_gemini(self, items_batch):
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            print("No GEMINI_API_KEY found, skipping AI processing.")
+            return []
+        
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel('gemini-2.5-flash', generation_config={"response_mime_type": "application/json"})
+        
+        prompt = "Extract brand, chipset, and vram_gb for the following GPU names. Return a JSON array of objects with keys: id, brand, chipset, vram_gb. If not found, return empty string.\n\n"
+        prompt += json.dumps([{"id": item['id'], "raw_name": item['raw_name']} for item in items_batch], ensure_ascii=False)
+        
+        try:
+            response = await model.generate_content_async(prompt)
+            return json.loads(response.text)
+        except Exception as e:
+            print(f"Gemini API error: {e}")
+            return []
 
     async def crawl_gearvn(self, page, url):
         print(f"Crawling GearVN: {url}")
@@ -253,13 +334,51 @@ class VGAScraper:
             if sheet.max_row == 1 and sheet.cell(row=1, column=1).value is None:
                 sheet.append(["source", "raw_name", "original_price", "discount_price", "url", "crawled_date", "brand", "chipset", "vram_gb"])
                 
+            brand_rules, chipset_rules, vram_rules = self.load_regex_rules(excel_path)
+            
+            ambiguous_items = []
+            for idx, item in enumerate(self.data):
+                item['id'] = idx
+                item['is_ambiguous'] = False
+                if brand_rules or chipset_rules or vram_rules:
+                    b_matches = self.get_matches(item['raw_name'], brand_rules)
+                    c_matches = self.get_matches(item['raw_name'], chipset_rules)
+                    v_matches = self.get_matches(item['raw_name'], vram_rules)
+                    if len(b_matches) > 1 or len(c_matches) > 1 or len(v_matches) > 1:
+                        item['is_ambiguous'] = True
+                        ambiguous_items.append(item)
+
+            ai_results = {}
+            if ambiguous_items:
+                batch_size = 20
+                for i in range(0, len(ambiguous_items), batch_size):
+                    batch = ambiguous_items[i:i+batch_size]
+                    res = await self.process_ambiguous_with_gemini(batch)
+                    for r in res:
+                        ai_results[r.get('id')] = r
+                    if i + batch_size < len(ambiguous_items):
+                        await asyncio.sleep(2)
+
             for item in self.data:
                 row_idx = sheet.max_row + 1
                 b_cell = f"B{row_idx}"
                 
-                brand_formula = f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn.FILTER(GPU_brand[GPU brand], (GPU_brand[GPU brand text]<>"") * ISNUMBER(SEARCH(GPU_brand[GPU brand text], {b_cell})), ""))'
-                chipset_formula = f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn.FILTER(Chipset_Table[Chipset], (Chipset_Table[Chipset text]<>"") * ISNUMBER(SEARCH(Chipset_Table[Chipset text], {b_cell})), ""))'
-                vram_formula = f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn.FILTER(VRAM_table[Video memory], (VRAM_table[Video memory text]<>"") * ISNUMBER(SEARCH(VRAM_table[Video memory text], {b_cell})), ""))'
+                if item['is_ambiguous'] and item['id'] in ai_results:
+                    # Nhập nhằng (>1 kết quả) → dùng kết quả AI
+                    ai_data = ai_results[item['id']]
+                    brand_val = ai_data.get('brand', '')
+                    chipset_val = ai_data.get('chipset', '')
+                    vram_val = ai_data.get('vram_gb', '')
+                else:
+                    # Regex trả đúng 1 kết quả → ghi text tĩnh
+                    # Regex trả 0 kết quả → ghi công thức Excel để Excel tự tìm
+                    b_matches = self.get_matches(item['raw_name'], brand_rules) if brand_rules else []
+                    c_matches = self.get_matches(item['raw_name'], chipset_rules) if chipset_rules else []
+                    v_matches = self.get_matches(item['raw_name'], vram_rules) if vram_rules else []
+                    
+                    brand_val = b_matches[0] if len(b_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(GPU_brand[GPU brand], (GPU_brand[GPU brand text]<>"") * ISNUMBER(SEARCH(GPU_brand[GPU brand text], {b_cell})), ""))'
+                    chipset_val = c_matches[0] if len(c_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(Chipset_Table[Chipset], (Chipset_Table[Chipset text]<>"") * ISNUMBER(SEARCH(Chipset_Table[Chipset text], {b_cell})), ""))'
+                    vram_val = v_matches[0] if len(v_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(VRAM_table[Video memory], (VRAM_table[Video memory text]<>"") * ISNUMBER(SEARCH(VRAM_table[Video memory text], {b_cell})), ""))'
                 
                 row_data = [
                     item.get("source", ""),
@@ -268,9 +387,9 @@ class VGAScraper:
                     item.get("discount_price", ""),
                     item.get("url", ""),
                     crawled_date_str,
-                    brand_formula,
-                    chipset_formula,
-                    vram_formula
+                    brand_val,
+                    chipset_val,
+                    vram_val
                 ]
                 sheet.append(row_data)
                 
