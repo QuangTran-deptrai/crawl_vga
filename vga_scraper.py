@@ -24,7 +24,6 @@ class VGAScraper:
         ]
         self.thns_url = "https://tinhocngoisao.com/collections/card-man-hinh"
         self.data = []
-        self.data = []
     async def send_telegram_alert(self, message: str):
         if not self.telegram_bot_token or not self.telegram_chat_id:
             print(f"[Telegram Not Configured] {message}")
@@ -129,74 +128,110 @@ class VGAScraper:
             print(f"Gemini API error: {e}")
             return []
 
+    async def _extract_gearvn_products(self, page, url):
+        """Extract all visible GearVN products from current page state."""
+        products = []
+        blocks = page.locator('.proloop-block')
+        count = await blocks.count()
+        
+        for i in range(count):
+            block = blocks.nth(i)
+            name_loc = block.locator('.proloop-name a')
+            name = await name_loc.inner_text() if await name_loc.count() > 0 else ""
+            
+            product_url_path = await name_loc.get_attribute('href') if await name_loc.count() > 0 else ""
+            product_url = f"https://gearvn.com{product_url_path}" if product_url_path else url
+            
+            highlight_loc = block.locator('.proloop-price--highlight')
+            discount_price_str = await highlight_loc.inner_text() if await highlight_loc.count() > 0 else ""
+            discount_price = self.clean_price(discount_price_str)
+            
+            compare_loc = block.locator('.proloop-price--compare del')
+            if await compare_loc.count() > 0:
+                original_price_str = await compare_loc.inner_text()
+                original_price = self.clean_price(original_price_str)
+            else:
+                original_price = discount_price
+                
+            if name.strip():
+                products.append({
+                    "source": "GearVN",
+                    "raw_name": name.strip(),
+                    "original_price": original_price,
+                    "discount_price": discount_price,
+                    "url": product_url
+                })
+        return products
+
     async def crawl_gearvn(self, page, url):
         print(f"Crawling GearVN: {url}")
         try:
             await page.goto(url, timeout=60000, wait_until="load")
-            await page.wait_for_timeout(3000)
+            
+            # Đợi sản phẩm thật load xong (AJAX dynamic loading)
+            try:
+                await page.wait_for_selector('.proloop-block .proloop-name', timeout=30000)
+                print(f"Sản phẩm đã load xong tại {url}")
+            except Exception:
+                print(f"Timeout chờ sản phẩm load tại {url}, thử tiếp...")
+                await page.wait_for_timeout(5000)
             
             # Dùng CSS ẩn luôn tất cả popup quảng cáo để không bao giờ bị che
             try:
-                await page.add_style_tag(content=".modal, .modal-backdrop, #myModal { display: none !important; pointer-events: none !important; z-index: -1 !important; }")
+                await page.add_style_tag(content=".modal, .modal-backdrop, #myModal, .collection-layout.js-loading::before { display: none !important; pointer-events: none !important; z-index: -1 !important; }")
                 print("Đã chèn CSS ẩn popup quảng cáo GearVN.")
             except Exception:
                 pass
             
-            # Xử lý pagination
+            # Scrape trang hiện tại trước
+            products = await self._extract_gearvn_products(page, url)
+            self.data.extend(products)
+            print(f"  Trang 1: {len(products)} sản phẩm")
+            
+            # Xử lý pagination - GearVN thay thế toàn bộ sản phẩm khi click Load More
             selector_load_more = "#load_more"
+            page_num = 1
             
             while True:
                 try:
                     button = page.locator(selector_load_more)
                     if await button.count() > 0 and await button.is_visible():
-                        current_count = await page.locator('.proloop-block').count()
-                        await button.scroll_into_view_if_needed()
-                        await page.evaluate("document.querySelectorAll('.modal, .modal-backdrop').forEach(el => el.remove())")
-                        await button.click()
-                        await page.wait_for_timeout(5000)
+                        await page.evaluate("document.querySelectorAll('.modal, .modal-backdrop, .js-loading').forEach(el => { el.style.pointerEvents = 'none'; el.classList.remove('js-loading'); })")
+                        await page.evaluate("document.querySelector('#load_more')?.click()")
+                        page_num += 1
                         
-                        new_count = await page.locator('.proloop-block').count()
-                        if new_count == current_count:
+                        # Đợi sản phẩm mới load xong sau khi click
+                        try:
+                            # Đợi cho đến khi có sản phẩm với tên không rỗng
+                            await page.wait_for_function(
+                                """() => {
+                                    const names = document.querySelectorAll('.proloop-block .proloop-name a');
+                                    return names.length > 0 && names[0].innerText.trim().length > 0;
+                                }""",
+                                timeout=15000
+                            )
+                        except Exception:
+                            await page.wait_for_timeout(5000)
+                        
+                        new_products = await self._extract_gearvn_products(page, url)
+                        if not new_products:
+                            print(f"  Trang {page_num}: không có sản phẩm mới, dừng.")
                             break
+                        
+                        self.data.extend(new_products)
+                        print(f"  Trang {page_num}: {len(new_products)} sản phẩm")
                     else:
                         break
                 except Exception as e:
+                    print(f"  Lỗi pagination trang {page_num}: {e}")
                     break
-                
-            blocks = page.locator('.proloop-block')
-            count = await blocks.count()
             
-            if count == 0:
-                await self.send_telegram_alert(f"Lỗi: GearVN không tìm thấy Selector .proloop-block hoặc lỗi kết nối tại {url}")
-                return
-
-            for i in range(count):
-                block = blocks.nth(i)
-                name_loc = block.locator('.proloop-name a')
-                name = await name_loc.inner_text() if await name_loc.count() > 0 else ""
+            total_gearvn = sum(1 for d in self.data if d['source'] == 'GearVN')
+            if total_gearvn == 0:
+                await self.send_telegram_alert(f"Lỗi: GearVN không crawl được sản phẩm nào tại {url}")
+            else:
+                print(f"  Tổng GearVN từ {url}: {total_gearvn} sản phẩm")
                 
-                product_url_path = await name_loc.get_attribute('href') if await name_loc.count() > 0 else ""
-                product_url = f"https://gearvn.com{product_url_path}" if product_url_path else url
-                
-                highlight_loc = block.locator('.proloop-price--highlight')
-                discount_price_str = await highlight_loc.inner_text() if await highlight_loc.count() > 0 else ""
-                discount_price = self.clean_price(discount_price_str)
-                
-                compare_loc = block.locator('.proloop-price--compare del')
-                if await compare_loc.count() > 0:
-                    original_price_str = await compare_loc.inner_text()
-                    original_price = self.clean_price(original_price_str)
-                else:
-                    original_price = discount_price
-                    
-                if name:
-                    self.data.append({
-                        "source": "GearVN",
-                        "raw_name": name.strip(),
-                        "original_price": original_price,
-                        "discount_price": discount_price,
-                        "url": product_url
-                    })
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: GearVN lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
 
