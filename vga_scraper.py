@@ -24,6 +24,7 @@ class VGAScraper:
         ]
         self.thns_url = "https://tinhocngoisao.com/collections/card-man-hinh"
         self.data = []
+        self.seen_urls = set()  # Track product URLs to prevent duplicates across crawl calls
     async def send_telegram_alert(self, message: str):
         if not self.telegram_bot_token or not self.telegram_chat_id:
             print(f"[Telegram Not Configured] {message}")
@@ -128,19 +129,29 @@ class VGAScraper:
             print(f"Gemini API error: {e}")
             return []
 
-    async def _extract_gearvn_products(self, page, url):
-        """Extract all visible GearVN products from current page state."""
+    async def _extract_gearvn_products(self, page, url, start_index=0):
+        """Extract GearVN products from current page state, starting from start_index.
+        
+        Args:
+            page: Playwright page object
+            url: The collection URL being crawled
+            start_index: Only extract products from this DOM index onward (for pagination dedup)
+        """
         products = []
         blocks = page.locator('.proloop-block')
         count = await blocks.count()
         
-        for i in range(count):
+        for i in range(start_index, count):
             block = blocks.nth(i)
             name_loc = block.locator('.proloop-name a')
             name = await name_loc.inner_text() if await name_loc.count() > 0 else ""
             
             product_url_path = await name_loc.get_attribute('href') if await name_loc.count() > 0 else ""
             product_url = f"https://gearvn.com{product_url_path}" if product_url_path else url
+            
+            # Skip if this product URL was already seen (cross-URL dedup)
+            if product_url in self.seen_urls:
+                continue
             
             highlight_loc = block.locator('.proloop-price--highlight')
             discount_price_str = await highlight_loc.inner_text() if await highlight_loc.count() > 0 else ""
@@ -154,6 +165,7 @@ class VGAScraper:
                 original_price = discount_price
                 
             if name.strip():
+                self.seen_urls.add(product_url)
                 products.append({
                     "source": "GearVN",
                     "raw_name": name.strip(),
@@ -186,9 +198,9 @@ class VGAScraper:
             # Scrape trang hiện tại trước
             products = await self._extract_gearvn_products(page, url)
             self.data.extend(products)
-            print(f"  Trang 1: {len(products)} sản phẩm")
+            print(f"  Trang 1: {len(products)} sản phẩm (mới), bỏ qua trùng: seen_urls={len(self.seen_urls)}")
             
-            # Xử lý pagination - GearVN thay thế toàn bộ sản phẩm khi click Load More
+            # Xử lý pagination - Load More append thêm sản phẩm vào DOM
             selector_load_more = "#load_more"
             page_num = 1
             
@@ -196,30 +208,37 @@ class VGAScraper:
                 try:
                     button = page.locator(selector_load_more)
                     if await button.count() > 0 and await button.is_visible():
+                        # Đếm số sản phẩm hiện tại TRƯỚC khi click Load More
+                        current_count = await page.locator('.proloop-block').count()
+                        
                         await page.evaluate("document.querySelectorAll('.modal, .modal-backdrop, .js-loading').forEach(el => { el.style.pointerEvents = 'none'; el.classList.remove('js-loading'); })")
                         await page.evaluate("document.querySelector('#load_more')?.click()")
                         page_num += 1
                         
-                        # Đợi sản phẩm mới load xong sau khi click
+                        # Đợi sản phẩm mới load xong - đợi DOM có THÊM sản phẩm
                         try:
-                            # Đợi cho đến khi có sản phẩm với tên không rỗng
                             await page.wait_for_function(
-                                """() => {
-                                    const names = document.querySelectorAll('.proloop-block .proloop-name a');
-                                    return names.length > 0 && names[0].innerText.trim().length > 0;
-                                }""",
+                                f"""(prevCount) => {{
+                                    const blocks = document.querySelectorAll('.proloop-block');
+                                    if (blocks.length <= prevCount) return false;
+                                    const lastBlock = blocks[blocks.length - 1];
+                                    const name = lastBlock.querySelector('.proloop-name a');
+                                    return name && name.innerText.trim().length > 0;
+                                }}""",
+                                arg=current_count,
                                 timeout=15000
                             )
                         except Exception:
                             await page.wait_for_timeout(5000)
                         
-                        new_products = await self._extract_gearvn_products(page, url)
+                        # Chỉ extract sản phẩm MỚI từ index current_count trở đi
+                        new_products = await self._extract_gearvn_products(page, url, start_index=current_count)
                         if not new_products:
                             print(f"  Trang {page_num}: không có sản phẩm mới, dừng.")
                             break
                         
                         self.data.extend(new_products)
-                        print(f"  Trang {page_num}: {len(new_products)} sản phẩm")
+                        print(f"  Trang {page_num}: {len(new_products)} sản phẩm mới")
                     else:
                         break
                 except Exception as e:
@@ -301,7 +320,8 @@ class VGAScraper:
                     elif len(prices) == 1:
                         original_price = discount_price = prices[0]
 
-                if name:
+                if name and product_url not in self.seen_urls:
+                    self.seen_urls.add(product_url)
                     self.data.append({
                         "source": "Tin Học Ngôi Sao",
                         "raw_name": name.strip(),
@@ -329,6 +349,22 @@ class VGAScraper:
         if not self.data:
             await self.send_telegram_alert("Cảnh báo: Không crawl được dữ liệu nào từ các trang.")
             return
+
+        # Final dedup dựa trên URL sản phẩm
+        seen = set()
+        unique_data = []
+        for item in self.data:
+            key = item.get('url', '')
+            if key and key not in seen:
+                seen.add(key)
+                unique_data.append(item)
+            elif not key:
+                unique_data.append(item)  # Giữ lại nếu không có URL
+        
+        dupes_removed = len(self.data) - len(unique_data)
+        if dupes_removed > 0:
+            print(f"⚠️ Đã loại bỏ {dupes_removed} sản phẩm trùng lặp (duplicate URL)")
+        self.data = unique_data
 
         vn_tz = timezone(timedelta(hours=7))
         crawled_date_str = datetime.now(vn_tz).strftime("%d/%m/%Y %H:%M:%S")
