@@ -17,6 +17,7 @@ class VGAScraper:
     def __init__(self):
         self.telegram_bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
         self.telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID")
+        self.google_sheets_webhook_url = os.getenv("GOOGLE_SHEETS_WEBHOOK_URL")
         
         self.gearvn_urls = [
             "https://gearvn.com/collections/vga-rtx-50-series",
@@ -430,6 +431,8 @@ class VGAScraper:
                     if i + batch_size < len(ambiguous_items):
                         await asyncio.sleep(2)
 
+            new_rows_for_sheets = []
+            
             for item in self.data:
                 row_idx = sheet.max_row + 1
                 b_cell = f"B{row_idx}"
@@ -440,6 +443,10 @@ class VGAScraper:
                     brand_val = ai_data.get('brand', '')
                     chipset_val = ai_data.get('chipset', '')
                     vram_val = ai_data.get('vram_gb', '')
+                    
+                    sheet_brand_val = brand_val
+                    sheet_chipset_val = chipset_val
+                    sheet_vram_val = vram_val
                 else:
                     # Regex trả đúng 1 kết quả → ghi text tĩnh
                     # Regex trả 0 kết quả → ghi công thức Excel để Excel tự tìm
@@ -450,6 +457,11 @@ class VGAScraper:
                     brand_val = b_matches[0] if len(b_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(GPU_brand[GPU brand], (GPU_brand[GPU brand text]<>"") * ISNUMBER(SEARCH(GPU_brand[GPU brand text], {b_cell})), ""))'
                     chipset_val = c_matches[0] if len(c_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(Chipset_Table[Chipset], (Chipset_Table[Chipset text]<>"") * ISNUMBER(SEARCH(Chipset_Table[Chipset text], {b_cell})), ""))'
                     vram_val = v_matches[0] if len(v_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(VRAM_table[Video memory], (VRAM_table[Video memory text]<>"") * ISNUMBER(SEARCH(VRAM_table[Video memory text], {b_cell})), ""))'
+                    
+                    # Công thức riêng cho Google Sheets
+                    sheet_brand_val = b_matches[0] if len(b_matches) == 1 else f'=IFERROR(TEXTJOIN(",", TRUE, FILTER(\'GPU ref\'!B:B, \'GPU ref\'!A:A<>"", ISNUMBER(SEARCH(\'GPU ref\'!A:A, {b_cell})))), "")'
+                    sheet_chipset_val = c_matches[0] if len(c_matches) == 1 else f'=IFERROR(TEXTJOIN(",", TRUE, FILTER(\'GPU ref\'!E:E, \'GPU ref\'!D:D<>"", ISNUMBER(SEARCH(\'GPU ref\'!D:D, {b_cell})))), "")'
+                    sheet_vram_val = v_matches[0] if len(v_matches) == 1 else f'=IFERROR(TEXTJOIN(",", TRUE, FILTER(\'GPU ref\'!H:H, \'GPU ref\'!G:G<>"", ISNUMBER(SEARCH(\'GPU ref\'!G:G, {b_cell})))), "")'
                 
                 row_data = [
                     item.get("source", ""),
@@ -463,6 +475,19 @@ class VGAScraper:
                     vram_val
                 ]
                 sheet.append(row_data)
+                
+                sheet_row = [
+                    item.get("source", ""),
+                    item.get("raw_name", ""),
+                    item.get("original_price", ""),
+                    item.get("discount_price", ""),
+                    item.get("url", ""),
+                    crawled_date_str,
+                    sheet_brand_val,
+                    sheet_chipset_val,
+                    sheet_vram_val
+                ]
+                new_rows_for_sheets.append(sheet_row)
                 
             table_name = "GPU_Lookup_Data"
             table_ref = f"A1:I{sheet.max_row}"
@@ -482,6 +507,24 @@ class VGAScraper:
             wb.save(excel_path)
             await self.send_telegram_alert(f"Thành công: Đã lấy được {len(self.data)} sản phẩm và lưu vào file Excel.")
             print(f"Data saved to {excel_path}")
+            
+            # Đẩy lên Google Sheets
+            if self.google_sheets_webhook_url and new_rows_for_sheets:
+                print(f"Đang đẩy {len(new_rows_for_sheets)} dòng lên Google Sheets...")
+                payload = {
+                    "clear": False, # Chỉ thêm vào cuối bảng
+                    "rows": new_rows_for_sheets
+                }
+                try:
+                    async with httpx.AsyncClient() as client:
+                        response = await client.post(self.google_sheets_webhook_url, json=payload, timeout=30.0)
+                        if response.status_code in [200, 302]:
+                            print("Đã đồng bộ lên Google Sheets thành công!")
+                        else:
+                            print(f"Lỗi đồng bộ Sheets: HTTP {response.status_code}")
+                except Exception as e:
+                    print(f"Lỗi khi kết nối tới Webhook Google Sheets: {e}")
+                    
             
         except PermissionError:
             await self.send_telegram_alert(f"Lỗi Permission Denied: Vui lòng đóng file {excel_path} trước khi chạy script.")
