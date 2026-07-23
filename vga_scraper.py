@@ -4,6 +4,7 @@ import json
 import asyncio
 import pandas as pd
 from datetime import datetime, timezone, timedelta
+from urllib.parse import urlparse, urljoin
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 import httpx
@@ -19,11 +20,20 @@ class VGAScraper:
         self.telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID")
         self.google_sheets_webhook_url = os.getenv("GOOGLE_SHEETS_WEBHOOK_URL")
         
+        # API config: (domain, collection_handle, source_name)
+        self.api_sources = [
+            ("gearvn.com", "vga-rtx-50-series", "GearVN"),
+            ("gearvn.com", "vga-card-man-hinh", "GearVN"),
+            ("tinhocngoisao.com", "card-man-hinh", "Tin Học Ngôi Sao"),
+        ]
+        
+        # Browser fallback URLs (chỉ dùng khi API thất bại)
         self.gearvn_urls = [
             "https://gearvn.com/collections/vga-rtx-50-series",
             "https://gearvn.com/collections/vga-card-man-hinh"
         ]
         self.thns_url = "https://tinhocngoisao.com/collections/card-man-hinh"
+        
         self.data = []
         self.seen_urls = set()  # Track product URLs to prevent duplicates across crawl calls
     async def send_telegram_alert(self, message: str):
@@ -49,6 +59,94 @@ class VGAScraper:
             return 0
         cleaned = re.sub(r'[^\d]', '', price_str)
         return int(cleaned) if cleaned else 0
+
+    def normalize_url(self, href, base_domain):
+        """Normalize product URL: handle both absolute/relative hrefs, strip query/fragment."""
+        if not href:
+            return ""
+        href = href.strip()
+        if href.startswith('http'):
+            full_url = href
+        else:
+            full_url = f"https://{base_domain}{href}" if href.startswith('/') else f"https://{base_domain}/{href}"
+        # Strip query params & fragment, normalize trailing slash
+        parsed = urlparse(full_url)
+        clean = f"{parsed.scheme}://{parsed.netloc}{parsed.path.rstrip('/')}"
+        return clean
+
+    async def crawl_via_api(self, domain, collection_handle, source_name):
+        """Crawl sản phẩm qua Shopify/Haravan JSON API. Nhanh hơn và đáng tin cậy hơn browser."""
+        base_url = f"https://{domain}/collections/{collection_handle}/products.json"
+        print(f"[API] Crawling {source_name}: {base_url}")
+        
+        page_num = 1
+        total_added = 0
+        
+        try:
+            async with httpx.AsyncClient(
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+                timeout=30.0,
+                follow_redirects=True
+            ) as client:
+                while True:
+                    url = f"{base_url}?limit=250&page={page_num}"
+                    response = await client.get(url)
+                    
+                    if response.status_code != 200:
+                        raise Exception(f"API trả HTTP {response.status_code} tại {url}")
+                    
+                    data = response.json()
+                    products = data.get("products", [])
+                    
+                    if not products:
+                        break
+                    
+                    for product in products:
+                        handle = product.get("handle", "")
+                        title = product.get("title", "").strip()
+                        
+                        if not title or not handle:
+                            continue
+                        
+                        product_url = f"https://{domain}/products/{handle}"
+                        
+                        if product_url in self.seen_urls:
+                            continue
+                        
+                        # Lấy giá từ variant đầu tiên
+                        variants = product.get("variants", [])
+                        if variants:
+                            variant = variants[0]
+                            discount_price = int(variant.get("price", 0) or 0)
+                            compare_price = variant.get("compare_at_price")
+                            if compare_price and int(compare_price) > 0:
+                                original_price = int(compare_price)
+                            else:
+                                original_price = discount_price
+                        else:
+                            discount_price = 0
+                            original_price = 0
+                        
+                        self.seen_urls.add(product_url)
+                        self.data.append({
+                            "source": source_name,
+                            "raw_name": title,
+                            "original_price": original_price,
+                            "discount_price": discount_price,
+                            "url": product_url
+                        })
+                        total_added += 1
+                    
+                    print(f"  [API] Trang {page_num}: {len(products)} sản phẩm, thêm mới: {total_added}")
+                    page_num += 1
+                    await asyncio.sleep(0.5)  # Rate limit nhẹ
+            
+            print(f"  [API] Tổng {source_name} ({collection_handle}): {total_added} sản phẩm")
+            return True  # Thành công
+            
+        except Exception as e:
+            print(f"  [API] Lỗi {source_name} ({collection_handle}): {e}")
+            return False  # Thất bại, cần fallback
 
     def load_regex_rules(self, excel_path="vga_data.xlsx"):
         brand_rules = {}
@@ -130,6 +228,9 @@ class VGAScraper:
             print(f"Gemini API error: {e}")
             return []
 
+    # ==================== BROWSER FALLBACK METHODS ====================
+    # Các method dưới đây chỉ chạy khi JSON API thất bại
+
     async def _extract_gearvn_products(self, page, url, start_index=0):
         """Extract GearVN products from current page state, starting from start_index.
         
@@ -148,7 +249,7 @@ class VGAScraper:
             name = await name_loc.inner_text() if await name_loc.count() > 0 else ""
             
             product_url_path = await name_loc.get_attribute('href') if await name_loc.count() > 0 else ""
-            product_url = f"https://gearvn.com{product_url_path}" if product_url_path else url
+            product_url = self.normalize_url(product_url_path, "gearvn.com") if product_url_path else url
             
             # Skip if this product URL was already seen (cross-URL dedup)
             if product_url in self.seen_urls:
@@ -176,7 +277,7 @@ class VGAScraper:
                 })
         return products
 
-    async def crawl_gearvn(self, page, url):
+    async def crawl_gearvn_browser(self, page, url):
         print(f"Crawling GearVN: {url}")
         try:
             await page.goto(url, timeout=60000, wait_until="load")
@@ -255,7 +356,7 @@ class VGAScraper:
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: GearVN lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
 
-    async def crawl_thns(self, page, url):
+    async def crawl_thns_browser(self, page, url):
         print(f"Crawling Tin Học Ngôi Sao: {url}")
         try:
             await page.goto(url, timeout=60000, wait_until="load")
@@ -301,25 +402,25 @@ class VGAScraper:
                 name = await name_loc.inner_text() if await name_loc.count() > 0 else ""
                 
                 product_url_path = await name_loc.get_attribute('href') if await name_loc.count() > 0 else ""
-                product_url = f"https://tinhocngoisao.com{product_url_path}" if product_url_path else url
-                
-                price_loc = block.locator('.pdPrice span')
-                price_count = await price_loc.count()
+                product_url = self.normalize_url(product_url_path, "tinhocngoisao.com") if product_url_path else url
                 
                 original_price = 0
                 discount_price = 0
                 
-                if price_count > 0:
-                    prices_str = []
-                    for j in range(price_count):
-                        prices_str.append(await price_loc.nth(j).inner_text())
-                    
-                    prices = [self.clean_price(p) for p in prices_str if self.clean_price(p) > 0]
-                    if len(prices) >= 2:
-                        original_price = max(prices)
-                        discount_price = min(prices)
-                    elif len(prices) == 1:
-                        original_price = discount_price = prices[0]
+                # Giá bán (giá đã giảm) - nằm trong .item.price
+                sale_price_loc = block.locator('.pdPrice .item.price')
+                if await sale_price_loc.count() > 0:
+                    sale_text = await sale_price_loc.inner_text()
+                    discount_price = self.clean_price(sale_text)
+                
+                # Giá gốc (giá so sánh) - nằm trong .item.comparePrice
+                compare_price_loc = block.locator('.pdPrice .item.comparePrice')
+                if await compare_price_loc.count() > 0:
+                    compare_text = await compare_price_loc.inner_text()
+                    compare_val = self.clean_price(compare_text)
+                    original_price = compare_val if compare_val > 0 else discount_price
+                else:
+                    original_price = discount_price
 
                 if name and product_url not in self.seen_urls:
                     self.seen_urls.add(product_url)
@@ -333,19 +434,34 @@ class VGAScraper:
         except Exception as e:
             await self.send_telegram_alert(f"Lỗi: Tin Học Ngôi Sao lỗi kết nối hoặc xử lý tại {url}. Detail: {str(e)}")
     async def async_run(self):
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            context = await browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
-            )
-            page = await context.new_page()
-            
-            for url in self.gearvn_urls:
-                await self.crawl_gearvn(page, url)
+        # === Bước 1: Thử crawl qua JSON API (nhanh, không cần browser) ===
+        api_failed_sources = []  # Track sources cần fallback browser
+        
+        for domain, handle, source_name in self.api_sources:
+            success = await self.crawl_via_api(domain, handle, source_name)
+            if not success:
+                api_failed_sources.append((domain, handle, source_name))
+        
+        # === Bước 2: Fallback về browser cho sources bị lỗi API ===
+        if api_failed_sources:
+            print(f"\n⚠️ API thất bại cho {len(api_failed_sources)} nguồn, fallback về browser...")
+            async with async_playwright() as p:
+                browser = await p.chromium.launch(headless=True)
+                context = await browser.new_context(
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+                )
+                page = await context.new_page()
                 
-            await self.crawl_thns(page, self.thns_url)
-            
-            await browser.close()
+                for domain, handle, source_name in api_failed_sources:
+                    fallback_url = f"https://{domain}/collections/{handle}"
+                    if source_name == "GearVN":
+                        await self.crawl_gearvn_browser(page, fallback_url)
+                    elif source_name == "Tin Học Ngôi Sao":
+                        await self.crawl_thns_browser(page, fallback_url)
+                
+                await browser.close()
+        else:
+            print("\n✅ Tất cả nguồn đã crawl thành công qua API, không cần browser.")
             
         if not self.data:
             await self.send_telegram_alert("Cảnh báo: Không crawl được dữ liệu nào từ các trang.")
@@ -458,10 +574,10 @@ class VGAScraper:
                     chipset_val = c_matches[0] if len(c_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(Chipset_Table[Chipset], (Chipset_Table[Chipset text]<>"") * ISNUMBER(SEARCH(Chipset_Table[Chipset text], {b_cell})), ""))'
                     vram_val = v_matches[0] if len(v_matches) == 1 else f'=_xlfn.TEXTJOIN(",",TRUE,_xlfn._xlws.FILTER(VRAM_table[Video memory], (VRAM_table[Video memory text]<>"") * ISNUMBER(SEARCH(VRAM_table[Video memory text], {b_cell})), ""))'
                     
-                    # Công thức riêng cho Google Sheets
-                    sheet_brand_val = b_matches[0] if len(b_matches) == 1 else f'=IFERROR(TEXTJOIN(",", TRUE, FILTER(\'GPU ref\'!B:B, \'GPU ref\'!A:A<>"", ISNUMBER(SEARCH(\'GPU ref\'!A:A, {b_cell})))), "")'
-                    sheet_chipset_val = c_matches[0] if len(c_matches) == 1 else f'=IFERROR(TEXTJOIN(",", TRUE, FILTER(\'GPU ref\'!E:E, \'GPU ref\'!D:D<>"", ISNUMBER(SEARCH(\'GPU ref\'!D:D, {b_cell})))), "")'
-                    sheet_vram_val = v_matches[0] if len(v_matches) == 1 else f'=IFERROR(TEXTJOIN(",", TRUE, FILTER(\'GPU ref\'!H:H, \'GPU ref\'!G:G<>"", ISNUMBER(SEARCH(\'GPU ref\'!G:G, {b_cell})))), "")'
+                    # Công thức riêng cho Google Sheets (dùng ; thay , cho locale VN)
+                    sheet_brand_val = b_matches[0] if len(b_matches) == 1 else f'=IFERROR(TEXTJOIN(","; TRUE; FILTER(\'GPU ref\'!B:B; \'GPU ref\'!A:A<>""; ISNUMBER(SEARCH(\'GPU ref\'!A:A; {b_cell})))); "")'
+                    sheet_chipset_val = c_matches[0] if len(c_matches) == 1 else f'=IFERROR(TEXTJOIN(","; TRUE; FILTER(\'GPU ref\'!E:E; \'GPU ref\'!D:D<>""; ISNUMBER(SEARCH(\'GPU ref\'!D:D; {b_cell})))); "")'
+                    sheet_vram_val = v_matches[0] if len(v_matches) == 1 else f'=IFERROR(TEXTJOIN(","; TRUE; FILTER(\'GPU ref\'!H:H; \'GPU ref\'!G:G<>""; ISNUMBER(SEARCH(\'GPU ref\'!G:G; {b_cell})))); "")'
                 
                 row_data = [
                     item.get("source", ""),
