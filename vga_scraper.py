@@ -117,12 +117,17 @@ class VGAScraper:
                         variants = product.get("variants", [])
                         if variants:
                             variant = variants[0]
-                            discount_price = int(variant.get("price", 0) or 0)
-                            compare_price = variant.get("compare_at_price")
-                            if compare_price and int(compare_price) > 0:
-                                original_price = int(compare_price)
+                            # Nếu sản phẩm hết hàng hoặc phải Liên hệ (available = False), giá sẽ được set về 0
+                            if not variant.get("available", True):
+                                discount_price = 0
+                                original_price = 0
                             else:
-                                original_price = discount_price
+                                discount_price = int(variant.get("price", 0) or 0)
+                                compare_price = variant.get("compare_at_price")
+                                if compare_price and int(compare_price) > 0:
+                                    original_price = int(compare_price)
+                                else:
+                                    original_price = discount_price
                         else:
                             discount_price = 0
                             original_price = 0
