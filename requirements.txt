@@ -3,5 +3,4 @@ pandas
 httpx
 python-dotenv
 openpyxl
-google-generativeai
 beautifulsoup4
