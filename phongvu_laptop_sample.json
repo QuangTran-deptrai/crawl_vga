@@ -1,0 +1,2927 @@
+[
+  {
+    "sku": "260705543",
+    "sellerSku": "260705543",
+    "name": "Laptop Dell 15 DC15250 – 71100514 (i5-1334U/ 16GB/ 512GB/ Windows 11 Home SL + Office + Microsoft)",
+    "imageUrl": "https://lh3.googleusercontent.com/NP5vZT4Lx50blQXbBgqNHwxmrlT0VD0ialUIQua3I87fvFlmM-n5CkW_M9I3w0cG9LcvVCqyKCWeua-h8iQcVCtzQps7BdK-Vw=s0",
+    "price": {
+      "latestPrice": 30090000,
+      "supplierRetailPrice": 30090000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/may-tinh-xach-tay-laptop-dell-15-dc15250-71100514-core-i5-1355u-bac--s260705543",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260705543"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Dell",
+      "code": "dell"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>i5-1334U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.63 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.6\" Full HD/ WVA/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260704596",
+    "sellerSku": "260704596",
+    "name": "Laptop Asus Zenbook 14 UX3405CA-ST630W (Ultra 7-255H/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/Kc1TGTT0grgQhkblVY-B46nWs6jCcZeE0i4Ex4LfFT_xXUpiziEwpm8_JkerJvzdnnBiWcufFi9hm7fRvVb5Ciotwuc_SxEn=s0",
+    "price": {
+      "latestPrice": 35490000,
+      "supplierRetailPrice": 40990000,
+      "discountAmount": 5500000,
+      "discountPercent": "-13%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3027985,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-zenbook-14-ux3405ca-st630w--s260704596",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260704596"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U7-255H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.2 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" 2.8K/ OLED/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260704589",
+    "sellerSku": "260704589",
+    "name": "Laptop Asus Zenbook 14 UX3405CA-ST1713W (Ultra 5-225H/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/uKhJFSeTh5qtzcjj9uz1sG4THQvUitWsFUc-gY3MRPUcvfNijRm2qAYjul9EHGwEUSL7GAo__L2XVqzpKxYsROnwusFZpd9r=s0",
+    "price": {
+      "latestPrice": 33990000,
+      "supplierRetailPrice": 38990000,
+      "discountAmount": 5000000,
+      "discountPercent": "-13%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3038271,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-zenbook-14-ux3405ca-st1713w--s260704589",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260704589"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Ultra 5-225H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.2 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" 2.8K/ OLED/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260703468",
+    "sellerSku": "260703468",
+    "name": "Laptop Lenovo ThinkPad T14s Gen 6 - 21QX00LJVN (Ultra 5-228V/ 32GB/ 1TB/ Windows 11 Pro)",
+    "imageUrl": "https://lh3.googleusercontent.com/vce55PeWfLi3tVJwRdaPkb9qTjjR6UfFNedNBDr5f74IkYlzdaPKNulhIk2aPZGwAu8I5EAX08WMklw-GIuL4wwmeUrlMKu9=s0",
+    "price": {
+      "latestPrice": 50990000,
+      "supplierRetailPrice": 50990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 5,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-thinkpad-t14s-gen-6-21qx00ljvn--s260703468",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260703468"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U5-228V</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.28 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-03",
+        "name": "Laptop - Máy tính xách tay doanh nghiệp",
+        "id": 386114,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260703460",
+    "sellerSku": "260703460",
+    "name": "Laptop Lenovo ThinkPad E14 Gen 7 - 21T90025VN (Core 7 240H/ 16GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/lADBGTgG4-AtNUa76VCj7efZk0DWF-wwIea-6r72T_zHkIhh16CObRP7w-L6LDfRwg3cf6p8TNvYMxTREvdAU1xw-uAs6l4x=s0",
+    "price": {
+      "latestPrice": 35990000,
+      "supplierRetailPrice": 35990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-thinkpad-e14-gen-7-21t90025vn--s260703460",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260703460"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Core 7 240H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.34 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" Full HD/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-03",
+        "name": "Laptop - Máy tính xách tay doanh nghiệp",
+        "id": 386114,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260703453",
+    "sellerSku": "260703453",
+    "name": "Laptop Lenovo V15 G5 IRL - 83HF00BYVN (i5-13420H/ 16GB/ 512GB/ Windows 11 Home SL, English)",
+    "imageUrl": "https://lh3.googleusercontent.com/HTx0WjvFsw_S5v7od0lZnmjvs0r5HVUkS5wLvptwz6VIHbQLypoBfukA1tOrCMz2TbwRmzmowsw7tfSk7CUnagK5jZfCjSX5=s0",
+    "price": {
+      "latestPrice": 24590000,
+      "supplierRetailPrice": 25690000,
+      "discountAmount": 1100000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-v15-g5-irl-83hf00byvn--s260703453",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260703453"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>i5-13420H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.6 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.6\" Full HD/ IPS",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-03",
+        "name": "Laptop - Máy tính xách tay doanh nghiệp",
+        "id": 386114,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260701776",
+    "sellerSku": "260701776",
+    "name": "Laptop Lenovo Yoga 7 2-in-1 14IPH11 - 83TC002KVN (Ultra 5-322/ 16GB/ 512GB/ Windows 11 Home SL + Office + Microsoft)",
+    "imageUrl": "https://lh3.googleusercontent.com/4ozSe-8YJcx-6gpVObRhaav6WP6eI6K3v2Sh6FibfkY7PSHSIu4DEL7s4U3LDjHynaSZikoYNblKPPkebE0CukDPVD2gOdVR=s0",
+    "price": {
+      "latestPrice": 39990000,
+      "supplierRetailPrice": 39990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-lenovo-yoga-7-2-in-1-14iph11-83tc002kvn--s260701776",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260701776"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U5-322</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.4 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ OLED/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603575",
+    "sellerSku": "260603575",
+    "name": "Laptop Msi Cyborg 15 C13WEO-418VN (Core i5-13420H/ GeForce RTX™ 5050/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/_Yc8_auojswYJDRVt2Y7bmvLW6jhVAzwu9NzlUyuiG6BE1vWyrvTrI2pnExrIC4reU8ORSvR5bX-kI9Sok3vHH8RfAMdOso=s0",
+    "price": {
+      "latestPrice": 34990000,
+      "supplierRetailPrice": 34990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-msi-cyborg-15-c13weo-418vn--s260603575",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603575"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>i5-13420H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5050</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.9 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.6\" Full HD/ IPS/ 144Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603319",
+    "sellerSku": "260603319",
+    "name": "Laptop Acer Aspire Lite 15 AL15-49P-R6XX (Ryzen 5 7430U/ 8GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/ShVeJvTC0Kkjj0df6XIL1TLxKcdxZWO7XopOUbMnhvCZ31GcDVjUpAUL1pFCYDQ-I0c4F_lU2Ks2hHbmMblB41KoTglGgyOe",
+    "price": {
+      "latestPrice": 17690000,
+      "supplierRetailPrice": 19990000,
+      "discountAmount": 2300000,
+      "discountPercent": "-12%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3031012,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-acer-aspire-lite-15-al15-49p-r6xx--s260603319",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603319"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Acer",
+      "code": "acer"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R5 7430U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>AMD Radeon</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.45 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.6\" Full HD/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603320",
+    "sellerSku": "260603320",
+    "name": "Laptop Lenovo LOQ 15AHP11 - 83TN0040VN (Ryzen 7 250/ GeForce RTX™ 5050/ 16GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/h642KiU3mRZG2uisXJawJYUpLkBM9W_bxqPEOD9YhNGHZ1SSWk6HRVW1zlOFcL56KnwJULkyGxIKj9_oHoaEwHaclPSJox0",
+    "price": {
+      "latestPrice": 41990000,
+      "supplierRetailPrice": 46990000,
+      "discountAmount": 5000000,
+      "discountPercent": "-11%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3021164,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-loq-15ahp11-83tn0040vn--s260603320",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603320"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R7 250</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5050</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2.1 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.3\" WUXGA/ IPS/ 165Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603149",
+    "sellerSku": "260603149",
+    "name": "MacBook Air M5 15 inch (10CPU/10GPU/16GB/512GB)",
+    "imageUrl": "https://lh3.googleusercontent.com/Y_BAqIEqJI2pItF30RrPw90bR9w_-uKVrZC3y-FGdh6Y4xuyjkxi6HkW-A7b3_98a-uLbDBMksoy3a3-o10UOUc0CE1F8BZLHQ=s0",
+    "price": {
+      "latestPrice": 40490000,
+      "supplierRetailPrice": 41990000,
+      "discountAmount": 1500000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3021311,
+    "freeship": false,
+    "hasGift": true,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/macbook-air-m5-15-3-inch-10cpu-10gpu-16gb-512gb--p880773",
+        "query": {
+          "sku": "260603149"
+        }
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603149"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Apple",
+      "code": "apple"
+    },
+    "gifts": {
+      "label": "QUÀ TẶNG",
+      "images": [
+        {
+          "src": "https://lh3.googleusercontent.com/Jh1RXQNYP_Y2DNRkweRgwxglRRaItJU28L5oDB79r1aC1LpKL5SotrzutPWss6xEBuroF6E65r-pSTbaEBpMApBDCOxcGffC",
+          "alt": "Túi Macbook 16 inch UNIQ - Màu ngẫu nhiên (Quà tặng)",
+          "sku": "",
+          "quantity": 1
+        }
+      ]
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "599000",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Apple M5</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.3 inch (2880 x 1864)</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>10CPU-10GPU 16GB-512GB 70W</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH05",
+        "name": "Apple",
+        "id": 386099,
+        "isAdult": false
+      },
+      {
+        "code": "NH05-01",
+        "name": "Máy tính Apple",
+        "id": 386233,
+        "isAdult": false
+      },
+      {
+        "code": "NH05-01-01",
+        "name": "Macbook",
+        "id": 386234,
+        "isAdult": false
+      },
+      {
+        "code": "NH05-01-01-01",
+        "name": "Macbook",
+        "id": 386235,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603086",
+    "sellerSku": "260603086",
+    "name": "Laptop Lenovo IdeaPad Slim 3 14IWC11 - 83RQ002PVN (Core 5 320/ 8GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/voAaeIDLsKtIPln6fjIpS81nxuz8OT8E61hNMuuUem4GQDpc1hQayw9nXzPKCbWOl7EDCwvPGjBClZJfp7uPJmvrQRAlvmIW1g",
+    "price": {
+      "latestPrice": 19990000,
+      "supplierRetailPrice": 22990000,
+      "discountAmount": 3000000,
+      "discountPercent": "-13%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3025550,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-ideapad-slim-3-14iwc11-83rq002pvn--s260603086",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603086"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Core 5 320</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.39 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ IPS",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603084",
+    "sellerSku": "260603084",
+    "name": "Laptop Lenovo Legion 5 15AHP11 - 83Q7001HVN (Ryzen 7 250/ GeForce RTX™ 5050/ 16GB/ 512GB/ Windows 11 Home SL + Office)",
+    "imageUrl": "https://lh3.googleusercontent.com/6hWeVGiaqGpD-PwVujt2N1fm1AZBvbzbua0F2VNoVP_y2EPo_ZOmm-4SEYlStZoFA63DoVGUQ_q9WIvfCFq0ZIw0XfeWuVI",
+    "price": {
+      "latestPrice": 53990000,
+      "supplierRetailPrice": 55990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3031017,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-legion-5-15ahp11-83q7001hvn--s260603084",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603084"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R7 250</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5050</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.8 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.3\" WQXGA/ OLED/ 165Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603076",
+    "sellerSku": "260603076",
+    "name": "Laptop Msi Cyborg 15 C13WEO-417VN (i7-13620H/ GeForce RTX™ 5050/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/4R8KXfc5A7YxgjIHQvrkPYlFl1RcXWDY9Hd2blLz9jzN2cZ0BmMMdMCc3nQ4c7C8ilveUys0p7csczG9Brg2WqluoPNnUCc=s0",
+    "price": {
+      "latestPrice": 35590000,
+      "supplierRetailPrice": 36990000,
+      "discountAmount": 1400000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-msi-cyborg-15-c13weo-417vn--s260603076",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603076"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>i7-13620H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5050</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.9 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.6\" Full HD/ IPS/ 144Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260603062",
+    "sellerSku": "260603062",
+    "name": "Laptop Lenovo ThinkBook 14 G9 IRL - 21UY008TVN (Core i5-13420H/ Intel Graphics/ 16GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/oZ-du_Z9jsWCzQ7q2ZHlU_h4-8U6V7p5SiSCX7sgLZHb8HxKa2Szc0618uh3AzSXrqgd63puvuljWvwUI502rdxSWiKg_hs1=s0",
+    "price": {
+      "latestPrice": 27290000,
+      "supplierRetailPrice": 28090000,
+      "discountAmount": 800000,
+      "discountPercent": "-3%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-thinkbook-14-g9-irl-21uy008tvn--s260603062",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260603062"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>i5-13420H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.36 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ IPS",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-03",
+        "name": "Laptop - Máy tính xách tay doanh nghiệp",
+        "id": 386114,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602916",
+    "sellerSku": "260602916",
+    "name": "Laptop HP 14 em0023AU - D0BG7PA (Ryzen 5 7520U/ 16GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/yqjSSMckCRy8xxIyTC-ArR6h7nQeKvJSSJDreVOp5UxjOAVM-kA6fpgdG5YFkcSg4FuVZW3KMFQ9BmhXChdHA1R_03Jyr6XASg",
+    "price": {
+      "latestPrice": 19990000,
+      "supplierRetailPrice": 23990000,
+      "discountAmount": 4000000,
+      "discountPercent": "-17%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3028291,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-hp-14-em0023au-d0bg7pa--s260602916",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602916"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "HP",
+      "code": "hp"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R5 7520U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>AMD Radeon</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.4 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" Full HD/ IPS",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602917",
+    "sellerSku": "260602917",
+    "name": "Laptop Lenovo IdeaPad Slim 3 16IPH11 - 83US002WVN (Ultra 7-355/ 16GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/VG8eeHXtjjDUleUEBPGkcKEYP3V3AtORhwVodl9fTDZsYLpyxP56FP-7fyUsK22zRh-bAgsIOrCvVmECkykDFo8uo865pXE",
+    "price": {
+      "latestPrice": 29990000,
+      "supplierRetailPrice": 32990000,
+      "discountAmount": 3000000,
+      "discountPercent": "-9%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3031015,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-ideapad-slim-3-16iph11-83us002wvn--s260602917",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602917"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U7-355</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.7 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" WUXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602918",
+    "sellerSku": "260602918",
+    "name": "Laptop Lenovo IdeaPad Slim 5 14IPH11 - 83S5000CVN (Ultra 5-322/ 32GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/c_48q5DeobDwtleLTsqpSS5FWbi1KxwbWu3kCJxsEQAtZI_1NwBSolsZUxjbUUqP9lCvzFo8lwPrWBbhNckvqM_h_TFGyg8",
+    "price": {
+      "latestPrice": 36990000,
+      "supplierRetailPrice": 39990000,
+      "discountAmount": 3000000,
+      "discountPercent": "-8%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 2878563,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-ideapad-slim-5-14iph11-83s5000cvn--s260602918",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602918"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U5-322</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.37 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ OLED/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602919",
+    "sellerSku": "260602919",
+    "name": "Laptop Dell Pro 14 Essential PV14250 (Core 7 150U/ 16GB/ 1TB/ Unbuntu)",
+    "imageUrl": "https://lh3.googleusercontent.com/ZLj-hbsfGBqnH15UZJNiWsRrRBmgBzeIV2gVSOy7lIvQhL11alI9esDzFYkBj6vUxHtG3j_YNIMKQ9yBFT_ZveVj4ddCa6ORaw=s0",
+    "price": {
+      "latestPrice": 29990000,
+      "supplierRetailPrice": 31490000,
+      "discountAmount": 1500000,
+      "discountPercent": "-5%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": true,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-dell-pro-14-essential-pv14250-pv14250-150u-161tbu--s260602919",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602919"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Dell",
+      "code": "dell"
+    },
+    "gifts": {
+      "label": "QUÀ TẶNG",
+      "images": [
+        {
+          "src": "https://lh3.googleusercontent.com/QzuflWSn4Cg5D3vvoCgzi1I0gvKqCNlkc2y8DC9CTuP1tXbyW1qRhQ2-QavTteU-KQS2Fy69A72mYWilX0PpFz1SDvthQ5bu=s0",
+          "alt": "Phần mềm Windows 11 Pro (Quà tặng)",
+          "sku": "",
+          "quantity": 1
+        }
+      ]
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Core 7 150U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.5 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ WVA/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602920",
+    "sellerSku": "260602920",
+    "name": "Laptop HP ProBook 4 G1i - BQ5B3PT (Ultra 5-225U/ 16GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/npgJeLYVOnQI2bFy5GiNxXN3Et2hvvmD2w_w1BSPvHGKtcWfWDJWGb0UHvSuOahOA2eKfT69dSZAfdNa7_u6E6xnO2ymBNUa",
+    "price": {
+      "latestPrice": 32990000,
+      "supplierRetailPrice": 34990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-6%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-hp-probook-4-g1i-bq5b3pt--s260602920",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602920"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "HP",
+      "code": "hp"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U5-225U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.4 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ IPS",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-03",
+        "name": "Laptop - Máy tính xách tay doanh nghiệp",
+        "id": 386114,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602439",
+    "sellerSku": "260602439",
+    "name": "Laptop Asus Gaming V16 V3607VJ-TK189W (Core 5 210H/ GeForce RTX™ 3050/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/VIm2JNN0XNU1PKTrHrAlduxGJrgZYa5CDM8whhxpBWC5gIMpnISU0Ndbn7MmoSq6zgYWYDGyOD-6TN3f1GDs9UnJjGkYzjk",
+    "price": {
+      "latestPrice": 28990000,
+      "supplierRetailPrice": 36990000,
+      "discountAmount": 8000000,
+      "discountPercent": "-22%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3030970,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-gaming-asus-v16-v3607vj-tk189w--s260602439",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602439"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Core 5 210H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 3050</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.9 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" WUXGA/ 144Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602436",
+    "sellerSku": "260602436",
+    "name": "Laptop LG Gram Pro 16Z90U-G.AV85A5 (Ultra 7-355/ 32GB/ 512GB/ Win 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/ryMJPk0radrso-0E68WrSFtQCrTO3ZfHzeJVSDwhxmybeGnvnJ9_ZElbGBz-KkxtjUI5m_q2SJajmDM8Ssd9Ln6HUyEcZNQ=s0",
+    "price": {
+      "latestPrice": 53990000,
+      "supplierRetailPrice": 53990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": true,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lg-gram-pro-16z90u-g-av85a5--s260602436",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602436"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "LG",
+      "code": "lg"
+    },
+    "gifts": {
+      "label": "QUÀ TẶNG",
+      "images": [
+        {
+          "src": "https://lh3.googleusercontent.com/yhx8w-sPAn-WcBCnBC_aF1RApaMTZ8MweygKyKfzJcYQqbNs3tJrMGHFlE4kqaaTSDY1bIZIbkw1re_GE48k9bXRwvePK58",
+          "alt": "Túi chống sốc Targus Pulse 15-16\" Pulse Sleeve - Màu ngẫu nhiên (Quà tặng)",
+          "sku": "",
+          "quantity": 1
+        }
+      ]
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U7-355</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.23 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" WQXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602437",
+    "sellerSku": "260602437",
+    "name": "Laptop Gigabyte Gaming A16 CMHH2MY893SH (i5-13420H/ GeForce RTX™ 4050/ 16GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/LlCeThQ9VETYeRaLC1kHlHSueEiUEhCMZ8XxktKKDrvKFQk9ENW87WWXDi5OmU_NWAMJno74JJYX3QAOvhpgWVjd-NLea-UlrA=s0",
+    "price": {
+      "latestPrice": 26490000,
+      "supplierRetailPrice": 29990000,
+      "discountAmount": 3500000,
+      "discountPercent": "-12%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3021173,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-gigabyte-gaming-a16-cmhh2my893sh--s260602437",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602437"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gigabyte",
+      "code": "gigabyte"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>i5-13420H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 4050</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2.2 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" WUXGA/ IPS/ 165Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602434",
+    "sellerSku": "260602434",
+    "name": "Laptop Acer Aspire Lite 14 AL14-44P-R0SP (Ryzen 7 7730U/ 8GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/7-Bu3mtvYD1RpHVpFGlPn0iiEfOHIMVDdqQa5ASVC-rn4-eP6D6hqyetU9ZHLw1q9t4GGQF19bu9Yt2TcDX6r5gys0DkX8w",
+    "price": {
+      "latestPrice": 20990000,
+      "supplierRetailPrice": 22990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-9%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-acer-aspire-lite-14-al14-44p-r0sp--s260602434",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602434"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Acer",
+      "code": "acer"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R7 7730U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>AMD Radeon</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.3 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14.5\" WUXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602429",
+    "sellerSku": "260602429",
+    "name": "Laptop Dell 14 DC14250 - DC4C5375W1 (Core 5 120U/ 16GB/ 512GB/ Win 11 Home SL + Office + Microsoft)",
+    "imageUrl": "https://lh3.googleusercontent.com/mkX1znjh0NI2q0slvC50XYRvm2raCQmZ5eOj3E2MsFR4SdvMEnGzZg1U3VUbunyhrqFTK7o3hgLKwsJoFG5ed8J7EO7y7vmL2g",
+    "price": {
+      "latestPrice": 30990000,
+      "supplierRetailPrice": 31390000,
+      "discountAmount": 400000,
+      "discountPercent": "-1%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-dell-14-dc14250-dc4c5375w1--s260602429",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602429"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Dell",
+      "code": "dell"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Core 5 120U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.6 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ WVA/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602430",
+    "sellerSku": "260602430",
+    "name": "Laptop Asus Zenbook S14 UX5406AA-SU348W (Ultra 9-386H/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/rF7uBzuyF0EpAc6Ugy1FL0dmXmMCsvq7lEDycFBechNZCC5M13WzyZedJoC8zDCLhW5CZHy9r1Db7yokmsP_LknTOTxruK4L-A=s0",
+    "price": {
+      "latestPrice": 47990000,
+      "supplierRetailPrice": 50990000,
+      "discountAmount": 3000000,
+      "discountPercent": "-6%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3030977,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-zenbook-s14-ux5406aa-su348w--s260602430",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602430"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "100000",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U9-386H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.2 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" 3K/ OLED/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602432",
+    "sellerSku": "260602432",
+    "name": "Laptop LG Gram Pro 16Z90U-G.AN55A5 (Ultra 5-325/ 16GB/ 512GB/ Win 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/sLqBbIS-RvFxzOK9DSyMoujBFarSZ5WW3YldYfhj9DPpjJqdQxPFXb69F2hVWYbOvGlhYuzUwcpvgegUz_lmUuxfzitgQfPR=s0",
+    "price": {
+      "latestPrice": 51990000,
+      "supplierRetailPrice": 51990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": true,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lg-gram-pro-16z90u-g-an55a5--s260602432",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602432"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "LG",
+      "code": "lg"
+    },
+    "gifts": {
+      "label": "QUÀ TẶNG",
+      "images": [
+        {
+          "src": "https://lh3.googleusercontent.com/yhx8w-sPAn-WcBCnBC_aF1RApaMTZ8MweygKyKfzJcYQqbNs3tJrMGHFlE4kqaaTSDY1bIZIbkw1re_GE48k9bXRwvePK58",
+          "alt": "Túi chống sốc Targus Pulse 15-16\" Pulse Sleeve - Màu ngẫu nhiên (Quà tặng)",
+          "sku": "",
+          "quantity": 1
+        }
+      ]
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U5-325</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.23 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" WQXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602427",
+    "sellerSku": "260602427",
+    "name": "Laptop Acer Aspire Lite 14 AL14-45P-R7Z3 (Ryzen 3 5400U/ 8GB/ 512GB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/s8yHZILpTRvIG3FHqLI3EtDXpNHBlY9MKXuPUytfRDgYXD7si0zIOTnhZibie2PTwK7Hz1ZCVn9taPHUy-qojmDLzv_NAu-Vwg",
+    "price": {
+      "latestPrice": 15990000,
+      "supplierRetailPrice": 16990000,
+      "discountAmount": 1000000,
+      "discountPercent": "-6%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-acer-aspire-lite-14-al14-45p-r7z3--s260602427",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602427"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Acer",
+      "code": "acer"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R3 5400U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>AMD Radeon</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.3 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602423",
+    "sellerSku": "260602423",
+    "name": "Laptop Dell 15 DC15255 - DC5R5973W1 (Ryzen 5 7530U/ 16GB/ 512GB/ Win 11 Home SL + Office + Microsoft)",
+    "imageUrl": "https://lh3.googleusercontent.com/qBPQYgYIkNJuWzmpkTzp8yt6vkrmQAoonYPZg2o2_8crAEfTEmgUXBQRN1-vCXjNz-l6QG6vpNQpXtY3z6XYXvWuQsBiheuh",
+    "price": {
+      "latestPrice": 24990000,
+      "supplierRetailPrice": 25290000,
+      "discountAmount": 300000,
+      "discountPercent": "-1%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-dell-15-dc15255-dc5r5973w1--s260602423",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602423"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Dell",
+      "code": "dell"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R5 7530U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>AMD Radeon</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.6 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.6\" Full HD/ IPS/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602424",
+    "sellerSku": "260602424",
+    "name": "Laptop LG Gram 14Z90U-G.AN55A5 (Ultra 5-325/ 16GB/ 512GB/ Win 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/XxUlM7lSmcObq8MWDQuVwWVf1J1TGgemKvHstcZ-PrpF6aT7DTqBZNu-U5SdRVNvEbEE9-PhLEeXipeUEDf1SnvPdqz03Yln=s0",
+    "price": {
+      "latestPrice": 49990000,
+      "supplierRetailPrice": 49990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": true,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lg-gram-14z90u-g-an55a5--s260602424",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602424"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "LG",
+      "code": "lg"
+    },
+    "gifts": {
+      "label": "QUÀ TẶNG",
+      "images": [
+        {
+          "src": "https://lh3.googleusercontent.com/CbpJUhZd7mXYXi-7e-LlG0hM1iY9dzAVxTyTLv_-wO5rLDXR4Sv9vC0MWdTB-XRRwny9I1RpbXzbuXzggqqqvZTKkjZ0N9IC5A",
+          "alt": "Túi chống sốc Targus Pulse 13-14\" Pulse Sleeve - Charcoal (TBS97004GL) (Quà tặng)",
+          "sku": "",
+          "quantity": 1
+        }
+      ]
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U5-325</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.12 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602419",
+    "sellerSku": "260602419",
+    "name": "Laptop Lenovo LOQ 15IPH11 - 83SL000LVN (Ultra 7-356H/ GeForce RTX™ 5060/ 16GB/ 512GB/ Windows 11 Home SL, English)",
+    "imageUrl": "https://lh3.googleusercontent.com/d_ozTYFL8ClrHdalxcMItyJVqZ-otRmq5xCVou_4OU0nPaVG_qjuIlSz1E0qTJQuwDXZb9BPP6YBCssIQ-JvKRV-rEdGHXw",
+    "price": {
+      "latestPrice": 49990000,
+      "supplierRetailPrice": 55990000,
+      "discountAmount": 6000000,
+      "discountPercent": "-11%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 3021165,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-loq-15iph11-83sl000lvn--s260602419",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602419"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U7-356H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5060</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2.1 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>15.3\" WUXGA/ IPS/ 165Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602416",
+    "sellerSku": "260602416",
+    "name": "Laptop Gigabyte Gaming AERO-X16-1VH93VNC94AH (Ryzen AI 7 350/ GeForce RTX™ 5060/ 16GB/ 1TB/ Windows 11 Home SL)",
+    "imageUrl": "https://lh3.googleusercontent.com/_t6P7c0aBFvnx45JL26HgW6nEKeeoSzRMfIiHmMQuLou7FgggYVxrubiU8lPje7Bvmn_8vVkUfU7GBPYpnohFoCBd6VPcqZk4Q=s0",
+    "price": {
+      "latestPrice": 42990000,
+      "supplierRetailPrice": 44990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 3021175,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-gigabyte-gaming-aero-x16-1vh93vnc94ah--s260602416",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602416"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gigabyte",
+      "code": "gigabyte"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R7 350</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5060</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.9 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" WQXGA/ IPS/ 165Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602411",
+    "sellerSku": "260602411",
+    "name": "Laptop Lenovo ThinkBook 16 G9 IRL - 21US008FVN (i5-13420H/ 16GB/ 512GB/ Windows 11 Home SL, English)",
+    "imageUrl": "https://lh3.googleusercontent.com/z5smAOieEJLqfac1N7YVKypC6R3eogCWACKwqxCgqbfCz2uog2PlfB6YrJ91mfdMxH4bVYWWtPiSoD2AKA0F4kouxP0-hAbPVw=s0",
+    "price": {
+      "latestPrice": 27990000,
+      "supplierRetailPrice": 29190000,
+      "discountAmount": 1200000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-thinkbook-16-g9-irl-21us008fvn--s260602411",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602411"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>i5-13420H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.7 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" WUXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-03",
+        "name": "Laptop - Máy tính xách tay doanh nghiệp",
+        "id": 386114,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602407",
+    "sellerSku": "260602407",
+    "name": "Laptop Asus ROG Zephyrus G14 GA403GM-SY164W (Ryzen AI 9 465/ GeForce RTX™ 5060/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/qtIkkXCNdMWcHG1G82YGBzBh1UhrJxSGAUYvd9v_6LQWHn2oGJQpxaa4gl-rqT_BVza4IIkHLIV8PDKFHAMbn4y-a1nHsg-i",
+    "price": {
+      "latestPrice": 65990000,
+      "supplierRetailPrice": 65990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-rog-zephyrus-g14-ga403gm-sy164w--s260602407",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602407"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>R9 465</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5060</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.5 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" 3K/ OLED/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602400",
+    "sellerSku": "260602400",
+    "name": "Laptop Msi Modern 14 H1M-014VN (Core 7 150U/ 16GB/ 512GB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/pwkbE0if-SJPRzBdZS5uXbnsfGYZnMSPHdqEMWmu_OjT79xjbzbJWgJLhVRm2KY93aDLhJdPxnuaXyVw55zpU0AOtMCl4fg4=s0",
+    "price": {
+      "latestPrice": 25490000,
+      "supplierRetailPrice": 25490000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-msi-modern-14-h1m-014vn--s260602400",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602400"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Core 7 150U</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>512GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.5 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" WUXGA/ IPS/ 60Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602384",
+    "sellerSku": "260602384",
+    "name": "Laptop Asus ROG Zephyrus G16 GU606AR-TB027W (Ultra 9-386H/ GeForce RTX™ 5070Ti/ 32GB/ 1TB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/1aCxMXRyqCgL5bumGASX_9j-QOgHZCA3rXD2W5Wn3FlYLz0TjCAFGFgoIErqfejhRTVARhm6TqwGkkILVq5pVQc4jaGc4lRz",
+    "price": {
+      "latestPrice": 99990000,
+      "supplierRetailPrice": 99990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-rog-zephyrus-g16-gu606ar-tb027w--s260602384",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602384"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U9-386H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5070Ti</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.9 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" 2.5K/ OLED/ 240Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602380",
+    "sellerSku": "260602380",
+    "name": "Laptop Asus ROG Zephyrus G16 GU606AM-TB032W (Ultra 9-386H/ GeForce RTX™ 5060/ 32GB/ 1TB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/LgPdkUrRs1xAIN9UU07LoI6hjrX9jIrDhDn6L-02q77OsKxZW-2s0yx3-1z59eye_3riy_XYtCUZeurUN_FJ_Sj0t6TZiPXr",
+    "price": {
+      "latestPrice": 87990000,
+      "supplierRetailPrice": 89990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-2%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-rog-zephyrus-g16-gu606am-tb032w--s260602380",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602380"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U9-386H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5060</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.9 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" 2.5K/ OLED/ 240Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602381",
+    "sellerSku": "260602381",
+    "name": "Laptop Asus ROG Zephyrus G16 GU606AX-TB042WS (Ultra 9-386H/ GeForce RTX™ 5090/ 64GB/ 2TB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/bsDdUHY4a7U2U2ojcdwpWlMihoQ_x2dsN96CdIGokCDwFV8FZtS8lsAvRI-ikm8voG75IM7Cy1mYCLH9EqL-LiCrNBBnzx-XeQ",
+    "price": {
+      "latestPrice": 168990000,
+      "supplierRetailPrice": 169990000,
+      "discountAmount": 1000000,
+      "discountPercent": "-1%"
+    },
+    "stockQuantity": 2,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-rog-zephyrus-g16-gu606ax-tb042ws--s260602381",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602381"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U9-386H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5090</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>64GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.9 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16\" 2.5K/ OLED/ 240Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602383",
+    "sellerSku": "260602383",
+    "name": "Laptop Asus ROG Zephyrus G14 GU405AR-SY016W (Ultra 9-386H/ GeForce RTX™ 5070Ti/ 32GB/ 1TB/ Windows 11 Home)",
+    "imageUrl": "https://lh3.googleusercontent.com/_xzgHskRMv7C_zzMF6k0suIf_EpwbdyxMVwdpRPqVT9MQb7YjgTUq7RFJAKusE294lsgg1Covlje9598A1lua5rCPJaLvsEq",
+    "price": {
+      "latestPrice": 92990000,
+      "supplierRetailPrice": 96990000,
+      "discountAmount": 4000000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 4,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-asus-rog-zephyrus-g14-gu405ar-sy016w--s260602383",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602383"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U9-386H</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>RTX 5070Ti</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1.58 kg</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" 3K/ OLED/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-01",
+        "name": "Laptop - Máy tính xách tay gaming",
+        "id": 386112,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260602215",
+    "sellerSku": "260602215",
+    "name": "Laptop Lenovo Yoga Slim 7 Ultra 14IPH11 - 83QK0015VN (Ultra 7-355/ 32GB/ 1TB/ Windows 11 Home + Microsoft + Office)",
+    "imageUrl": "https://lh3.googleusercontent.com/aFQJ8j4fPVHjiDfJ6720gsQlct0UVBSwadeTEK698PbF9MJSZZ5i0VZg8o-3IyjPS3GfEzFHn0c0TzCVm1Fc6ziVnmv25AArRQ",
+    "price": {
+      "latestPrice": 64990000,
+      "supplierRetailPrice": 64990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 2,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/laptop-lenovo-yoga-slim-7-ultra-14iph11-83qk0015vn--s260602215",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260602215"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Lenovo",
+      "code": "lenovo"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/CPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>U7-355</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>Intel Graphics</span></div></br><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/RAM.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/SSD.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>1TB</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/weight-icon-1.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>975 g</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Screen-Size.svg\" loading=\"lazy\" alt=\"\" width=\"14px\" height=\"14px\"/><span>14\" 2.8K/ POLED/ 120Hz</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386095,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386110,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01",
+        "name": "Laptop - Máy tính xách tay",
+        "id": 386111,
+        "isAdult": false
+      },
+      {
+        "code": "NH01-01-01-02",
+        "name": "Laptop - Máy tính xách tay non-gaming",
+        "id": 386113,
+        "isAdult": false
+      }
+    ]
+  }
+]

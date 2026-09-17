@@ -11,6 +11,7 @@ import httpx
 import openpyxl
 from openpyxl.worksheet.table import Table, TableStyleInfo
 import google.generativeai as genai
+from bs4 import BeautifulSoup
 
 load_dotenv()
 
@@ -74,7 +75,85 @@ class VGAScraper:
         clean = f"{parsed.scheme}://{parsed.netloc}{parsed.path.rstrip('/')}"
         return clean
 
+    async def crawl_gearvn_html(self, domain, collection_handle, source_name):
+        base_url = f"https://{domain}/collections/{collection_handle}"
+        print(f"[HTML] Crawling {source_name}: {base_url}")
+        
+        page_num = 1
+        total_added = 0
+        
+        try:
+            async with httpx.AsyncClient(
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+                timeout=30.0,
+                follow_redirects=True,
+                verify=False
+            ) as client:
+                while True:
+                    url = f"{base_url}?page={page_num}"
+                    response = await client.get(url)
+                    
+                    if response.status_code != 200:
+                        raise Exception(f"HTML trả HTTP {response.status_code} tại {url}")
+                    
+                    soup = BeautifulSoup(response.text, 'html.parser')
+                    cards = soup.select('a.product-card')
+                    
+                    if not cards:
+                        break
+                        
+                    for card in cards:
+                        product_url_path = card.get('href', '')
+                        product_url = self.normalize_url(product_url_path, domain) if product_url_path else ""
+                        
+                        if not product_url or product_url in self.seen_urls:
+                            continue
+                            
+                        name_el = card.find('p')
+                        title = name_el.text.strip() if name_el else ""
+                        if not title:
+                            continue
+                            
+                        price_spans = card.find_all('span', string=re.compile(r'đ|₫', re.IGNORECASE))
+                        if not price_spans:
+                             price_spans = card.find_all('span', string=re.compile(r'[0-9\.]+₫?đ?'))
+                        
+                        all_prices = [self.clean_price(span.text) for span in price_spans if self.clean_price(span.text) > 1000]
+                        
+                        if len(all_prices) == 0:
+                            original_price = 0
+                            discount_price = 0
+                        elif len(all_prices) == 1:
+                            original_price = all_prices[0]
+                            discount_price = all_prices[0]
+                        else:
+                            original_price = max(all_prices)
+                            discount_price = min(all_prices)
+                            
+                        self.seen_urls.add(product_url)
+                        self.data.append({
+                            "source": source_name,
+                            "raw_name": title,
+                            "original_price": original_price,
+                            "discount_price": discount_price,
+                            "url": product_url
+                        })
+                        total_added += 1
+                        
+                    print(f"  [HTML] Trang {page_num}: {len(cards)} sản phẩm, thêm mới: {total_added}")
+                    page_num += 1
+                    await asyncio.sleep(0.5)
+            
+            print(f"  [HTML] Tổng {source_name} ({collection_handle}): {total_added} sản phẩm")
+            return True
+        except Exception as e:
+            print(f"  [HTML] Lỗi {source_name} ({collection_handle}): {e}")
+            return False
+
     async def crawl_via_api(self, domain, collection_handle, source_name):
+        if domain == "gearvn.com":
+            return await self.crawl_gearvn_html(domain, collection_handle, source_name)
+            
         """Crawl sản phẩm qua Shopify/Haravan JSON API. Nhanh hơn và đáng tin cậy hơn browser."""
         base_url = f"https://{domain}/collections/{collection_handle}/products.json"
         print(f"[API] Crawling {source_name}: {base_url}")
@@ -117,8 +196,8 @@ class VGAScraper:
                         variants = product.get("variants", [])
                         if variants:
                             variant = variants[0]
-                            # Nếu sản phẩm hết hàng hoặc phải Liên hệ (available = False), giá sẽ được set về 0
-                            if not variant.get("available", True):
+                            # Tin Học Ngôi Sao: Nếu sản phẩm hết hàng hoặc phải Liên hệ (available = False), giá sẽ được set về 0
+                            if not variant.get("available", True) and source_name == "Tin Học Ngôi Sao":
                                 discount_price = 0
                                 original_price = 0
                             else:

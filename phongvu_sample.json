@@ -1,0 +1,2874 @@
+[
+  {
+    "sku": "260704824",
+    "sellerSku": "260704824",
+    "name": "Card màn hình Msi GeForce RTX 5060 8G VENTUS 2X OC V1 8GB GDDR7 (912-V550-005)",
+    "imageUrl": "https://lh3.googleusercontent.com/h1lSaChT_T7t42fqJwlGhQnDDgTMjLx_f2llElm0VbL5GkXOGGRIjPLcmwZWy9PTJG53M8_RUJVk9ksGbyGnzpfN7uDrUhmN=s0",
+    "price": {
+      "latestPrice": 11190000,
+      "supplierRetailPrice": 11190000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/card-man-hinh-vga-geforce-rtx-5060-8g-ventus-2x-oc-v1--s260704824",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260704824"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260704634",
+    "sellerSku": "260704634",
+    "name": "Card màn hình Asus T1 GeForce RTX 5060 Ti 8GB GDDR7 OC Edition 8GB GDDR7 (T1-RTX5060TI-O8G-GAMING)",
+    "imageUrl": "https://lh3.googleusercontent.com/Lp-upkdeHdan0x3-ag-sDcDtDBKV96syz1bg0mpWdTE7OCLbVuwzyOx2jXPxytp9Ck9NQf9NBJw8wBLRMVUwaPfYx5C1A1M=s0",
+    "price": {
+      "latestPrice": 15890000,
+      "supplierRetailPrice": 16990000,
+      "discountAmount": 1100000,
+      "discountPercent": "-6%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/card-man-hinh-vga-asus-t1-geforce-rtx-5060-ti-8gb-gddr7-oc-edition-t1-rtx5060ti-o8g-gaming--s260704634",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260704634"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260508255",
+    "sellerSku": "260508255",
+    "name": "Card màn hình Asus Dual Radeon RX 7600 EVO OC Edition 8GB GDDR6 ",
+    "imageUrl": "https://lh3.googleusercontent.com/zvAq9Rr3kT3g4X9H36gJjQfyK4nTG9wBQBtNfPe5msNO7AY8pl5ozyqfQF8dByDqw5m2UNlCnXa6vWSICa7jxIS5tgiF6Rffqg",
+    "price": {
+      "latestPrice": 6990000,
+      "supplierRetailPrice": 7790000,
+      "discountAmount": 800000,
+      "discountPercent": "-10%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-asus-dual-radeon-rx-7600-evo-oc-edition-8gb-gddr6--s260508255",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260508255"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR6 - PCI-E 4.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2048 Stream Processors</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260501482",
+    "sellerSku": "260501482",
+    "name": "Card màn hình Gainward GeForce RTX 5080 Phoenix 16GB GDDR7 (NE75080019T2-GB2031X)",
+    "imageUrl": "https://lh3.googleusercontent.com/YFGOCCTFoa3aBW_LkEgXb-1-3QLN5sX4i7Csb_pTUTXL204cWvo_i1DK2X0KYJ2DlMW-_paA4K8IEQZYHeGEXNpdOSZ51Gg1tQ",
+    "price": {
+      "latestPrice": 41790000,
+      "supplierRetailPrice": 41790000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gainward-rtx-5080-phoenix-16gb-gddr7-256bit--s260501482",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260501482"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gainward",
+      "code": "gainward"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260501452",
+    "sellerSku": "260501452",
+    "name": "Card màn hình Gainward Gainward GeForce RTX 5060 GHOST 8GB GDDR7 (NE75060019P1-GB2063B)",
+    "imageUrl": "https://lh3.googleusercontent.com/u7jjZ7T1VcDnPY4YDemhHLObgxBXJIa0Kbqb4K6PaFBblBl99-XsbDO2IunmCbPS4jxOlK8CUgetbXyzNf24lSHLvMSuigpG0w",
+    "price": {
+      "latestPrice": 11990000,
+      "supplierRetailPrice": 11990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 5,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gainward-rtx-5060-ghost-8gb-gddr7-128bit--s260501452",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260501452"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gainward",
+      "code": "gainward"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260501445",
+    "sellerSku": "260501445",
+    "name": "Card màn hình Gainward Gainward GeForce RTX 5060Ti GHOST 8GB GDDR7 (NE7506T019P1-GB2062B)",
+    "imageUrl": "https://lh3.googleusercontent.com/0XLgrTR0OkoBCu0xTxwfivN-g7JpYjN9CFL0_denFgb4MDHWxGVA769SN2ew2BtpRHnMSi_-hSKDkvx5YvSjyd5wVOla31E",
+    "price": {
+      "latestPrice": 13390000,
+      "supplierRetailPrice": 13390000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 3,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gainward-rtx-5060-ti-ghost-8gb-gddr7-128bit--s260501445",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260501445"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gainward",
+      "code": "gainward"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260501438",
+    "sellerSku": "260501438",
+    "name": "Card màn hình Gainward GeForce RTX 5060Ti PYTHON III 16GB GDDR7 (NE7506T019T1-GB2061T)",
+    "imageUrl": "https://lh3.googleusercontent.com/Y9Dy6G9sNS6SLBCProC7Ng7_54b31-IUKPZskI-leB2sdpof4ANHyC8DgzNsXGEDjtQ8cfDAkHZTgmBKKXYc8V3rPc02A6d3=s0",
+    "price": {
+      "latestPrice": 18490000,
+      "supplierRetailPrice": 18490000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gainward-rtx-5060-ti-python-iii-16gb-gddr7-128bit--s260501438",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260501438"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gainward",
+      "code": "gainward"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260501428",
+    "sellerSku": "260501428",
+    "name": "Card màn hình Gainward GeForce RTX 5070 PYTHON III 12GB GDDR7 (NE75070019K9-GB2050T)",
+    "imageUrl": "https://lh3.googleusercontent.com/KzTrC0daWoj8_HD96-EAr5tgzAAWf8DFDxVRdJvbVpkgEbk3cm6OtbbB1-wwl6S19pW0GYy4pMPJy4BEUyhUWmgweh7BI9w",
+    "price": {
+      "latestPrice": 21990000,
+      "supplierRetailPrice": 21990000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 3,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gainward-rtx-5070-python-iii-12gb-gddr7-192bit--s260501428",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260501428"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gainward",
+      "code": "gainward"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>12GB GDDR7 - PCI-E 5.0</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260303261",
+    "sellerSku": "260303261",
+    "name": "Card màn hình MSI GeForce RTX 5060 Ti 8G SHADOW 2X OC PLUS GDDR7 (G506T-8S2CP)",
+    "imageUrl": "https://lh3.googleusercontent.com/nqKyt9JpILKDTlrixNLQob-8lL4SpDM5wUZPq_xHqdumRTMySOPhrWJXlbzW2vns8904dcLXLpg2TxPznlBLezwNilkuXBI=s0",
+    "price": {
+      "latestPrice": 12690000,
+      "supplierRetailPrice": 14590000,
+      "discountAmount": 1900000,
+      "discountPercent": "-13%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 2873217,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5060-ti-8g-shadow-2x-oc-plus--s260303261",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260303261"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260202508",
+    "sellerSku": "260202508",
+    "name": "Card màn hình Inno3d GeForce RTX 3050 6GB Twin X2 V2 6GB GDDR6 ",
+    "imageUrl": "https://lh3.googleusercontent.com/Silgf9qRDl2PmIp61UZsV0xcNGM-2vuaV80ZFVxKHk_vu47eZkhk5de3q6hPDu3TXmW8SBpk0pRVKpcKDqoHiRX_2HKClvo",
+    "price": {
+      "latestPrice": 6090000,
+      "supplierRetailPrice": 6590000,
+      "discountAmount": 500000,
+      "discountPercent": "-8%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-inno3d-rtx-3050-6gb-twin-x2-v2--s260202508",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260202508"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Inno3d",
+      "code": "inno3d"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>6GB GDDR6 - PCI-E 4.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2304 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260108855",
+    "sellerSku": "260108855",
+    "name": "Card màn hình Palit RTX 5060 Ti DUAL OC 8GB GDDR7 8GB GDDR7 ",
+    "imageUrl": "https://lh3.googleusercontent.com/UZDkjtmy3ZyO9T7r7-K0bj5T-qidmsgE61G-dw0ba6qgepILh-Wp_x8mpN2dcTZATWPT3U2jFHbX00rOTzzqHRGqi6j0rfu4Ww=s0",
+    "price": {
+      "latestPrice": 14390000,
+      "supplierRetailPrice": 14390000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-palit-rtx-5060-ti-dual-oc-8gb-gddr7--s260108855",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260108855"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Palit",
+      "code": "palit"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260108859",
+    "sellerSku": "260108859",
+    "name": "Card màn hình Palit RTX 5060 INFINITY 2 OC 8GB GDDR7 ",
+    "imageUrl": "https://lh3.googleusercontent.com/J6nLgKQqHKX7OgOrjTIBU2P1GyCMKe9U0Z9voF3Hjqw94lc9fv4y9uxyptt-Ff_2OFcL6Y2oucNFJqSGCqMcByReMOwMARSAgw=s0",
+    "price": {
+      "latestPrice": 10790000,
+      "supplierRetailPrice": 10790000,
+      "discountAmount": 0
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-palit-rtx-5060-infinity-2-oc--s260108859",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260108859"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Palit",
+      "code": "palit"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260108860",
+    "sellerSku": "260108860",
+    "name": "Card màn hình Palit RTX 5060 Ti INFINITY 3 16GB GDDR6 ",
+    "imageUrl": "https://lh3.googleusercontent.com/egwl1sYhwoaEJE41Szp1llkhIbGWS5nW4CBbBGoLcVjhYfJt1vtJSQMiQLZ9SzyiLtlEMv7Wwz61_sXrXhWbTnCH36LmvHWi=s0",
+    "price": {
+      "latestPrice": 18690000,
+      "supplierRetailPrice": 19990000,
+      "discountAmount": 1300000,
+      "discountPercent": "-7%"
+    },
+    "stockQuantity": 3,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-palit-rtx-5060-ti-infinity-3--s260108860",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260108860"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Palit",
+      "code": "palit"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR6 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260102158",
+    "sellerSku": "260102158",
+    "name": "Card màn hình PNY GeForce RTX 4070 SUPER VERTO Overclocked Dual Fan 12GB GDDR6X (VCG4070S12DFXPB1-O)",
+    "imageUrl": "https://lh3.googleusercontent.com/u3gI7oMf8VU70dLKyN9zo7fXEkIjaJtljD9tzlClt966AM9TuA7Wv4zQeGvvHmfsN3jb0VqVbnmmmaEKTP_FmF1HpJdYF8cC",
+    "price": {
+      "latestPrice": 16290000,
+      "supplierRetailPrice": 18590000,
+      "discountAmount": 2300000,
+      "discountPercent": "-12%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-pny-rtx-4070-super-verto-overclocked-dual-fan--s260102158",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260102158"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "PNY",
+      "code": "pny"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>12GB GDDR6X - PCI-E 4.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>7168 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "260100504",
+    "sellerSku": "260100504",
+    "name": "Card màn hình Inno3d GEFORCE RTX 5060 TWIN X2 8GB 8GB GDDR7 (N50602-08D7-195071N)",
+    "imageUrl": "https://lh3.googleusercontent.com/ENR1fi6DrYG4BymA3enRtQa6zHivqzjfySE4lJnnNyh_futrWHUZtnVeKOfqA1GAHlIZhgQU8y6mvnKrQWKr-Y4Ue2pEgILquQ=s0",
+    "price": {
+      "latestPrice": 10290000,
+      "supplierRetailPrice": 10990000,
+      "discountAmount": 700000,
+      "discountPercent": "-6%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-inno3d-rtx-5060-twin-x2-8gb--s260100504",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "260100504"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Inno3d",
+      "code": "inno3d"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "251111607",
+    "sellerSku": "251111607",
+    "name": "Card màn hình Colorful GeForce RTX 5060 Gaming DUO 8GB-V (8GB GDDR7)",
+    "imageUrl": "https://lh3.googleusercontent.com/e0X_86bwJxa9-qy2157W2ARmpXHHE0tKcfyfIM7R6YQfDux0OGxogwop5DucRWl76e2APu8OFAlbK5nvHiZXyJ_XEZ7CjwBm2A=s0",
+    "price": {
+      "latestPrice": 9590000,
+      "supplierRetailPrice": 9990000,
+      "discountAmount": 400000,
+      "discountPercent": "-4%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-colorful-rtx-5060-gaming-duo-8gb-v--s251111607",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "251111607"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Colorful",
+      "code": "colorful"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "251102052",
+    "sellerSku": "251102052",
+    "name": "Card màn hình LEADTEK NVIDIA RTX PRO 6000 96G WORKSTATION (96GB GDDR7)",
+    "imageUrl": "https://lh3.googleusercontent.com/Kbh89AWpQEBnwOzElEJBZ5owfwgBg9_C_-ilwSvVW9UktWTP0S-YRy_jqvwKKT2RMAs4gXN7YcfA281v4I5wz4-QnFN5JtHs",
+    "price": {
+      "latestPrice": 405900000,
+      "supplierRetailPrice": 411900000,
+      "discountAmount": 6000000,
+      "discountPercent": "-1%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-leadtek-nvidia-rtx-pro-6000-96g-workstation--s251102052",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "251102052"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Leadtek",
+      "code": "leadtek"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>96GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>24064 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "251102003",
+    "sellerSku": "251102003",
+    "name": "Card màn hình LEADTEK NVIDIA RTX PRO 2000 16GB GDDR7",
+    "imageUrl": "https://lh3.googleusercontent.com/YnBQXkrgMfz7F3vFjq09Nwz50dZkCRrSNp4u9JlK51g1i8rrDrM_xP0OD7-hScl2dc0iI7BYUwL-DzKHootmMkYZ1ZK6dnRcNQ",
+    "price": {
+      "latestPrice": 33990000,
+      "supplierRetailPrice": 35990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-6%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-leadtek-nvidia-rtx-pro-2000-16gb--s251102003",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "251102003"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Leadtek",
+      "code": "leadtek"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0 x 8</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4352 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "251101989",
+    "sellerSku": "251101989",
+    "name": "Card màn hình LEADTEK NVIDIA RTX PRO 4000 24G (24GB GDDR7)",
+    "imageUrl": "https://lh3.googleusercontent.com/yjRqOhOlpBCxKVrx5JAV_l0xvB_JGkNBv12foS-lpZbtegiO-3sfDYgVw5QFNduUxw9GoQPb-QRAMm_muMA_Zn0kyw6vQqs",
+    "price": {
+      "latestPrice": 69900000,
+      "supplierRetailPrice": 74900000,
+      "discountAmount": 5000000,
+      "discountPercent": "-7%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-leadtek-nvidia-rtx-pro-4000-24g--s251101989",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "251101989"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Leadtek",
+      "code": "leadtek"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>24GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8960 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "251001982",
+    "sellerSku": "251001982",
+    "name": "Card màn hình INNO3D GeForce RTX 5060 Ti 16GB TWIN X2 GDDR7 (N506T2-16D7-191073N)",
+    "imageUrl": "https://lh3.googleusercontent.com/F5GLmivbktopFhDCB52hKBL2XlfdBzS_CXvzpc3yeQetac2vGQn-MzGPVIKgjiTFsXhaeo-LzG6PwWIkPIQklFKy7k28hzsp=s0",
+    "price": {
+      "latestPrice": 18790000,
+      "supplierRetailPrice": 19990000,
+      "discountAmount": 1200000,
+      "discountPercent": "-6%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-inno3d-rtx-5060-ti-16gb-twin-x2--s251001982",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "251001982"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Inno3d",
+      "code": "inno3d"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "251001974",
+    "sellerSku": "251001974",
+    "name": "Card màn hình INNO3D GEFORCE RTX 5060 TWIN X2 OC 8GB GDDR7 (N50602-08D7X-195070N)",
+    "imageUrl": "https://lh3.googleusercontent.com/pUmicLiW3ncCDYyPjhdmMpPPJvd2nMIX-xj2D5qpTBj8IYENfTrPKX88vTAyyxSPzQBCXMFXEnKMw6NV-ReuVRHcFqC30809=s0",
+    "price": {
+      "latestPrice": 9990000,
+      "supplierRetailPrice": 10990000,
+      "discountAmount": 1000000,
+      "discountPercent": "-9%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-inno3d-rtx-5060-twin-x2-oc--s251001974",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "251001974"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Inno3d",
+      "code": "inno3d"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250719828",
+    "sellerSku": "250719828",
+    "name": "Card màn hình Msi RTX™ 5060 Ti 16G SHADOW 2X OC PLUS 16GB GDDR7 (G506T-16S2CP)",
+    "imageUrl": "https://lh3.googleusercontent.com/8rDi5hXpHDWd7F-69kpd_tRnZSjDbbSM8H_C8Izd2p4l98aIkjc1LcdVXZXc9XiOdZTMSCeQR8ddfg2blz1-qsRBONlwK7k=s0",
+    "price": {
+      "latestPrice": 18990000,
+      "supplierRetailPrice": 19990000,
+      "discountAmount": 1000000,
+      "discountPercent": "-5%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5060-ti-16g-shadow-2x-oc-plus--s250719828",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250719828"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250713732",
+    "sellerSku": "250713732",
+    "name": "Card màn hình ASUS Dual GeForce RTX 5050 8GB GDDR6 OC Edition (DUAL-RTX5050-O8G)",
+    "imageUrl": "https://lh3.googleusercontent.com/Mnpvslm0O1RXs1T__ntfofrp-MVXh7htM-kCD2jHlDp7Plq0eqYLFQsUEU4YPG4wkUJorO-LRE1n0dhibz6CHUCJrz53vCvx=s0",
+    "price": {
+      "latestPrice": 9190000,
+      "supplierRetailPrice": 9490000,
+      "discountAmount": 300000,
+      "discountPercent": "-3%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-asus-dual-rtx-5050-8gb-gddr6-oc-edition--s250713732",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250713732"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR6 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2560 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250713725",
+    "sellerSku": "250713725",
+    "name": "Card màn hình Gigabyte GeForce RTX 5050 WINDFORCE OC 8GB GDDR6 (GV-N5050WF2OC-8GD)",
+    "imageUrl": "https://lh3.googleusercontent.com/uLo-AlzzAv30yaUJ0mrXPVtTnzfWq-Vss2p_WthVQfDetZpREuwzaa59zZBZlv_f0H5zAs49p6OVWQk8EDOAsWkCqv-sxUOd=s0",
+    "price": {
+      "latestPrice": 9090000,
+      "supplierRetailPrice": 9990000,
+      "discountAmount": 900000,
+      "discountPercent": "-9%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gigabyte-rtx-5050-windforce-oc-8g--s250713725",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250713725"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gigabyte",
+      "code": "gigabyte"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR6 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2560 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250713728",
+    "sellerSku": "250713728",
+    "name": "Card màn hình ASUS Dual GeForce RTX 5050 8GB GDDR6 (DUAL-RTX5050-8G)",
+    "imageUrl": "https://lh3.googleusercontent.com/1RbF2h9wVYQdO5BX9qHqWsT0tizB7TwIvIyCWxGXp-uscaGstixksQg8KP0PUiEePmNs4tckT-0CTo4DQbukMPOlcd7TGDRYZQ=s0",
+    "price": {
+      "latestPrice": 9090000,
+      "supplierRetailPrice": 9990000,
+      "discountAmount": 900000,
+      "discountPercent": "-9%"
+    },
+    "stockQuantity": 5,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-asus-dual-rtx-5050-8gb-gddr6--s250713728",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250713728"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR6 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2560 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250710711",
+    "sellerSku": "250710711",
+    "name": "Card màn hình MSI RTX 5050 8G SHADOW 2X OC (8GB GDDR6)",
+    "imageUrl": "https://lh3.googleusercontent.com/oWT2Nm8TpRQ67uOEqtbV01PJae17VKfweCJzZx0-2qwxMMKbm-NMhppkDagWXz29or4uxkH6elyN1AiFrLOfDhHeITCd0TYh=s0",
+    "price": {
+      "latestPrice": 12290000,
+      "supplierRetailPrice": 12990000,
+      "discountAmount": 700000,
+      "discountPercent": "-5%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5050-8g-shadow-2x-oc--s250710711",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250710711"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR6 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2560 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250710712",
+    "sellerSku": "250710712",
+    "name": "Card màn hình MSI RTX 5050 8G VENTUS 2X OC (8GB GDDR6)",
+    "imageUrl": "https://lh3.googleusercontent.com/aXy1X_K-UDAfGntMcUG6JYBFGx8rYx8mHiODSgsh6c74mAm3tW5zzclgrX7WJtg2TB9Aq7EFw5BWqFDb8t510hOy2mlPwxk=s0",
+    "price": {
+      "latestPrice": 9490000,
+      "supplierRetailPrice": 10990000,
+      "discountAmount": 1500000,
+      "discountPercent": "-14%"
+    },
+    "stockQuantity": 2,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5050-8g-ventus-2x-oc--s250710712",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250710712"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR6 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2560 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250709448",
+    "sellerSku": "250709448",
+    "name": "Card màn hình Colorful GeForce RTX 3050 6GB-V4 6GB GDDR6 ",
+    "imageUrl": "https://lh3.googleusercontent.com/KbXl6-aqB3FyZX7KQ1iubNYnO_6Ujg6mkLHArdMOuJpjaAiJP1-ZN2pVSyK_krQY0DNKtKyGCUz4_mIS_4dvTKZLfrcU3UDS",
+    "price": {
+      "latestPrice": 6090000,
+      "supplierRetailPrice": 6590000,
+      "discountAmount": 500000,
+      "discountPercent": "-8%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-colorful-rtx-3050-6gb-v4--s250709448",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250709448"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Colorful",
+      "code": "colorful"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>6GB GDDR6<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>2304 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250509161",
+    "sellerSku": "250509161",
+    "name": "Card màn hình MSI GeForce RTX 5060 8G VENTUS 2X OC (8GB GDDR7)",
+    "imageUrl": "https://lh3.googleusercontent.com/mnu6R5ybVfwnb6_TaI6dF-x1vAd-fJbMbfg-tdHzGsnsQBfMd0XoJ07jpttTGaJJgCsXXCQugnJ1Mtx5NvoXLuwCAUpkYMTU=s0",
+    "price": {
+      "latestPrice": 9990000,
+      "supplierRetailPrice": 12300000,
+      "discountAmount": 2310000,
+      "discountPercent": "-19%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5060-8g-ventus-2x-oc--s250509161",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250509161"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250509154",
+    "sellerSku": "250509154",
+    "name": "Card màn hình Asus PRIME GeForce RTX™ 5060 Ti 8GB GDDR7 OC Edition 8GB GDDR7 (90YV0MP0-M0NA00)",
+    "imageUrl": "https://lh3.googleusercontent.com/ZWdd1RkCo8LYQ4OCB1VqZAoOLhWc9IDVxE8dtC-Mxv-sgwXW2gWnDXqhT2fMQjJOyPK7mnGD1IVef66zzM-kby0lbBUOsrc=s0",
+    "price": {
+      "latestPrice": 14190000,
+      "supplierRetailPrice": 18990000,
+      "discountAmount": 4800000,
+      "discountPercent": "-25%"
+    },
+    "stockQuantity": 2,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-asus-prime-rtx-5060-ti-8gb-gddr7-oc-edition--s250509154",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250509154"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250509157",
+    "sellerSku": "250509157",
+    "name": "Card màn hình MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE",
+    "imageUrl": "https://lh3.googleusercontent.com/nE37h8AWJJz2aY4_AKQEWFvF0idSwND4e66CgRzVPS9odBSGbQTCjWQZT9Jgh24l9AupTQcSPwT0kjKnMPJbQvDF56JBofQ=s0",
+    "price": {
+      "latestPrice": 10090000,
+      "supplierRetailPrice": 12500000,
+      "discountAmount": 2410000,
+      "discountPercent": "-19%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5060-8g-ventus-2x-oc-white--s250509157",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250509157"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250509147",
+    "sellerSku": "250509147",
+    "name": "Card màn hình ASUS PRIME GeForce RTX 5060 Ti 16GB GDDR7 OC Edition (90YV0MH2-M0NA00)",
+    "imageUrl": "https://lh3.googleusercontent.com/3T14fiX_TZdv8b5UGBzOuBQGBiisPPbZaJw_l_VEi9gHHYvtvE2IA-KTcj-k29HkKbj6kQZvxfX7AqAoByOH9Yq0dbXuryUF=s0",
+    "price": {
+      "latestPrice": 18990000,
+      "supplierRetailPrice": 20990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-10%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 2873215,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-asus-prime-rtx-5060-ti-16gb-gddr7-oc-edition--s250509147",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250509147"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250509148",
+    "sellerSku": "250509148",
+    "name": "Card màn hình MSI GeForce RTX 5060 8G INSPIRE 2X OC (8GB GDDR7)",
+    "imageUrl": "https://lh3.googleusercontent.com/Dp5ZpIaEhgb4kXL1LxfmiF3n1pd575l_2gvEFctQ_1qPzSPWYaTz86Mek-puUD0NnGFfEQEqsx0MNQGl5lfTEs4-I87qqno4=s0",
+    "price": {
+      "latestPrice": 11690000,
+      "supplierRetailPrice": 12990000,
+      "discountAmount": 1300000,
+      "discountPercent": "-10%"
+    },
+    "stockQuantity": 4,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5060-8g-inspire-2x-oc--s250509148",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250509148"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250509150",
+    "sellerSku": "250509150",
+    "name": "Card màn hình MSI GeForce RTX 5060 8G SHADOW 2X OC (8GB GDDR7)",
+    "imageUrl": "https://lh3.googleusercontent.com/mqzMGA-3fQ5ae6Mpos8f0V6YXb3vbWimBYtxR4rel3sK2Fmq6ybqUxXFYDGuClzVgzswhFWCzBoOGk-cR6oPiEwrcDAgMzVj=s0",
+    "price": {
+      "latestPrice": 9890000,
+      "supplierRetailPrice": 11800000,
+      "discountAmount": 1910000,
+      "discountPercent": "-16%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5060-8g-shadow-2x-oc--s250509150",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250509150"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250508157",
+    "sellerSku": "250508157",
+    "name": "Card màn hình Gigabyte RTX™ 5060 WINDFORCE OC 8G (GV-N5060WF2OC-8GD)",
+    "imageUrl": "https://lh3.googleusercontent.com/QgaIKOZoOexsY2VS_xuixxQcEA4yUTx65GLr7FaBOR4M2k1tCyFbARnwY0yJMiiJ178iCc8Z9DrQrlFHGW7uIJL7stdgL5rB=s0",
+    "price": {
+      "latestPrice": 9990000,
+      "supplierRetailPrice": 13900000,
+      "discountAmount": 3910000,
+      "discountPercent": "-28%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gigabyte-rtx-5060-windforce-oc-8g--s250508157",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250508157"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gigabyte",
+      "code": "gigabyte"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>8GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3840 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250414924",
+    "sellerSku": "250414924",
+    "name": "Card màn hình Msi GeForce RTX 5060 Ti 16G VENTUS 2X OC PLUS 16GB GDDR7 (912-V535-027)",
+    "imageUrl": "https://lh3.googleusercontent.com/XQEH9tIo9CdNxUFqi8YhTkc_03JN9htG-FfrZie2J7cGMePQwUeN-UG2YJXSDvTNPkR0W5dyjei_5kkSG8uIQhTNC-zzZjWPRg=s0",
+    "price": {
+      "latestPrice": 18990000,
+      "supplierRetailPrice": 19990000,
+      "discountAmount": 1000000,
+      "discountPercent": "-5%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 2873216,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5060-ti-16g-ventus-2x-oc-plus--s250414924",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250414924"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250412006",
+    "sellerSku": "250412006",
+    "name": "Card màn hình ASUS Dual GeForce RTX 5060 Ti 16GB GDDR7 OC Edition (90YV0MH0-M0NA00)",
+    "imageUrl": "https://lh3.googleusercontent.com/t_jtwjAtVNklYdNAQqsAnRzTpV6cl7UG5aBGvreZVo5kdFUBlHHpk5SNhgIB-9bddVRgqm-Q1ek_rRfQGhIFg1IHL3Eci69aew=s0",
+    "price": {
+      "latestPrice": 18990000,
+      "supplierRetailPrice": 20990000,
+      "discountAmount": 2000000,
+      "discountPercent": "-10%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 2873214,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-asus-dual-rtx-5060-ti-16gb-gddr7-oc-edition--s250412006",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250412006"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Asus",
+      "code": "asus"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>16GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>4608 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250407124",
+    "sellerSku": "250407124",
+    "name": "Card màn hình Gigabyte GeForce RTX™ 3060 WINDFORCE OC 12G (GV-N3060WF2OC-12GD)",
+    "imageUrl": "https://lh3.googleusercontent.com/2LNovZ7R7EMuTFNaXkMUji7MYL6yzjRUShyQJzcrO2YU1nz5zUk8WzAh47yX4UAhqJBaaeDTJiQYegyGDp9FS8NRrMQgUkMk",
+    "price": {
+      "latestPrice": 9990000,
+      "supplierRetailPrice": 14490000,
+      "discountAmount": 4500000,
+      "discountPercent": "-31%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-gigabyte-rtx-3060-windforce-oc-12g--s250407124",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250407124"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Gigabyte",
+      "code": "gigabyte"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>12GB GDDR6 - PCI-E 4.0 x16</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>3584 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250309481",
+    "sellerSku": "250309481",
+    "name": "Card màn hình Msi RTX 5090 32G VENTUS 3X OC 32GB GDDR7 ",
+    "imageUrl": "https://lh3.googleusercontent.com/x9IqNHbkRDl3Bt5F8OAhnze4cKzpjdpk6ldsCeB5iyij_yMtHqo6D_h0xeAZiAM9QKBVfwIykMaiG9y_LqLydrGCDSPmS-eSjg",
+    "price": {
+      "latestPrice": 114900000,
+      "supplierRetailPrice": 119000000,
+      "discountAmount": 4100000,
+      "discountPercent": "-3%"
+    },
+    "stockQuantity": 1,
+    "selectPromotionId": 0,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5090-32g-ventus-3x-oc--s250309481",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250309481"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>32GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>21760 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  },
+  {
+    "sku": "250301753",
+    "sellerSku": "250301753",
+    "name": "Card màn hình Msi RTX 5070 12G VENTUS 2X OC 12GB GDDR7",
+    "imageUrl": "https://lh3.googleusercontent.com/h7Vpw4yR7dQYg9JaSy2kVipzRCe9DQofNHBl0gfSK8Qi2PkGsdvtUzde_mGYJFaBcaUPFFko2BWrKn1C8hDxbkO4Ai4wcDfv=s0",
+    "price": {
+      "latestPrice": 20490000,
+      "supplierRetailPrice": 22190000,
+      "discountAmount": 1700000,
+      "discountPercent": "-8%"
+    },
+    "stockQuantity": 1000,
+    "selectPromotionId": 2873212,
+    "freeship": false,
+    "hasGift": false,
+    "showNewProductGift": true,
+    "link": {
+      "as": {
+        "pathname": "/vga-msi-rtx-5070-12g-ventus-2x-oc--s250301753",
+        "query": {}
+      },
+      "href": {
+        "pathname": "/products/[sku]",
+        "query": {
+          "sku": "250301753"
+        }
+      },
+      "passHref": true
+    },
+    "brand": {
+      "name": "Msi",
+      "code": "msi"
+    },
+    "isAlcoholicCategory": false,
+    "isPreOrder": false,
+    "showContact": false,
+    "bestComboDiscount": "0",
+    "numberDisplayFormat": {
+      "thousandSeparator": ".",
+      "decimalSeparator": ","
+    },
+    "highlight": "<div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/GPU.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>12GB GDDR7 - PCI-E 5.0</span></div><div style=\"display: inline-flex;align-items: center;gap: 4px;margin-right: 4px;height: 14px\"><img src=\"https://shopfront-cdn.tekoapis.com/phongvu/icon/Other.svg\" alt=\"\" width=\"14px\" height=\"14px\"/><span>6144 CUDA cores</span></div>",
+    "precisionToDisplayDecimalQuantity": 0,
+    "materials": [],
+    "averageRating": 0,
+    "categories": [
+      {
+        "code": "NH03",
+        "name": "Linh kiện máy tính",
+        "id": 386097,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01",
+        "name": "Linh kiện máy tính để bàn",
+        "id": 386136,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03",
+        "name": "Card màn hình (VGA)",
+        "id": 386143,
+        "isAdult": false
+      },
+      {
+        "code": "NH03-01-03-01",
+        "name": "Card màn hình (VGA)",
+        "id": 386144,
+        "isAdult": false
+      }
+    ]
+  }
+]
